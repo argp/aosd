@@ -1,11 +1,10 @@
 # Apple Open Source Downloader (aosd)
 
-This is my fork of [samdmarshall's](https://github.com/samdmarshall]
+This is my fork of [samdmarshall's](https://github.com/samdmarshall)
 really [helpful utility](https://github.com/samdmarshall/AOS-Downloader)
-to download Apple's open source code packages.
-
-I made some changes specific to the way I want to use it; most probably
-they are not appropriate for what you want to do. Please use the
+to download Apple's open source code packages. I made some changes
+specific to the way I want to use it; most probably they are not
+appropriate for what you want to do. Please use the
 [upstream version](https://github.com/samdmarshall/AOS-Downloader)
 instead.
 
@@ -23,5 +22,5 @@ $ python aosd/main.py -t mac -p dyld -r 10.11.2
 ====================
 ```
 
-All bugs are mine, if you use this fork don't bother samdmarshall; contact
-me instead.
+All bugs you encounter in this are probably mine, if you use this fork
+don't bother samdmarshall with them; contact me instead.
