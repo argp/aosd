@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>build</key>
+	<string>10A403</string>
+	<key>inherits</key>
+	<string></string>
+	<key>projects</key>
+	<dict>	
+		
+		<key>JavaScriptCore</key>
+		<dict>
+			<key>version</key>
+			<string>1097.3</string>
+		</dict>
+		
+		<key>WTFEmbedded</key>
+		<dict>
+			<key>version</key>
+			<string>20</string>
+		</dict>
+		
+		<key>WebCore</key>
+		<dict>
+			<key>version</key>
+			<string>1640</string>
+		</dict>
+		
+		<key>cctools</key>
+		<dict>
+			<key>version</key>
+			<string>836</string>
+		</dict>
+		
+		<key>gdb</key>
+		<dict>
+			<key>version</key>
+			<string>1822</string>
+		</dict>
+		
+		<key>ld64</key>
+		<dict>
+			<key>version</key>
+			<string>134.9</string>
+		</dict>
+		
+		<key>libiconv</key>
+		<dict>
+			<key>version</key>
+			<string>35</string>
+		</dict>
+		
+		<key>libstdcxx</key>
+		<dict>
+			<key>version</key>
+			<string>56</string>
+		</dict>
+		
+        </dict>
+</dict>
+</plist>

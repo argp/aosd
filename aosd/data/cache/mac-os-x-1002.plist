@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>build</key>
+	<string>4P12</string>
+	<key>inherits</key>
+	<string>4L13</string>
+	<key>projects</key>
+	<dict>	
+		
+		<key>Libinfo</key>
+		<dict>
+			<key>version</key>
+			<string>78.2</string>
+		</dict>
+		
+		<key>Libsystem</key>
+		<dict>
+			<key>version</key>
+			<string>50</string>
+		</dict>
+		
+		<key>configd</key>
+		<dict>
+			<key>version</key>
+			<string>24.1</string>
+		</dict>
+		
+		<key>netinfo</key>
+		<dict>
+			<key>version</key>
+			<string>208.1</string>
+		</dict>
+		
+		<key>network_cmds</key>
+		<dict>
+			<key>version</key>
+			<string>77</string>
+		</dict>
+		
+		<key>ntp</key>
+		<dict>
+			<key>version</key>
+			<string>13</string>
+		</dict>
+		
+		<key>xnu</key>
+		<dict>
+			<key>version</key>
+			<string>124.7</string>
+		</dict>
+		
+        </dict>
+</dict>
+</plist>

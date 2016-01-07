@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>build</key>
+	<string>6A317</string>
+	<key>inherits</key>
+	<string></string>
+	<key>projects</key>
+	<dict>	
+		
+		<key>CoreOSMakefiles</key>
+		<dict>
+			<key>version</key>
+			<string>76</string>
+		</dict>
+		
+		<key>Git</key>
+		<dict>
+			<key>version</key>
+			<string>50</string>
+		</dict>
+		
+		<key>bison</key>
+		<dict>
+			<key>version</key>
+			<string>14</string>
+		</dict>
+		
+		<key>bootstrap_cmds</key>
+		<dict>
+			<key>version</key>
+			<string>91</string>
+		</dict>
+		
+		<key>cctools</key>
+		<dict>
+			<key>version</key>
+			<string>862</string>
+		</dict>
+		
+		<key>clang</key>
+		<dict>
+			<key>version</key>
+			<string>600.0.51</string>
+		</dict>
+		
+		<key>cvs</key>
+		<dict>
+			<key>version</key>
+			<string>47</string>
+		</dict>
+		
+		<key>developer_cmds</key>
+		<dict>
+			<key>version</key>
+			<string>62</string>
+		</dict>
+		
+		<key>gcc_select</key>
+		<dict>
+			<key>version</key>
+			<string>133</string>
+		</dict>
+		
+		<key>gm4</key>
+		<dict>
+			<key>version</key>
+			<string>15</string>
+		</dict>
+		
+		<key>gnumake</key>
+		<dict>
+			<key>version</key>
+			<string>131</string>
+		</dict>
+		
+		<key>gperf</key>
+		<dict>
+			<key>version</key>
+			<string>13</string>
+		</dict>
+		
+		<key>headerdoc</key>
+		<dict>
+			<key>version</key>
+			<string>8.9.26</string>
+		</dict>
+		
+		<key>ld64</key>
+		<dict>
+			<key>version</key>
+			<string>241.9</string>
+		</dict>
+		
+		<key>pb_makefiles</key>
+		<dict>
+			<key>version</key>
+			<string>1005</string>
+		</dict>
+		
+		<key>subversion</key>
+		<dict>
+			<key>version</key>
+			<string>65</string>
+		</dict>
+		
+        </dict>
+</dict>
+</plist>

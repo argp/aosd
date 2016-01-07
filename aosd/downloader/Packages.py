@@ -1,10 +1,12 @@
-from __future__ import absolute_import
+import sys
+sys.path.append('.')
+sys.path.append('..')
 
-from ..helpers.logging_helper import logging_helper
+from helpers.logging_helper import logging_helper
 
-from .releases import releases
-from .utilities import utilities
-from .cacher import cacher
+from releases import releases
+from utilities import utilities
+from cacher import cacher
 
 import os
 import plistlib

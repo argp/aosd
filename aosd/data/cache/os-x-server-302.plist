@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>build</key>
+	<string>13S2042</string>
+	<key>inherits</key>
+	<string></string>
+	<key>projects</key>
+	<dict>	
+		
+		<key>ChatServer</key>
+		<dict>
+			<key>version</key>
+			<string>409</string>
+		</dict>
+		
+		<key>HTTPServer</key>
+		<dict>
+			<key>version</key>
+			<string>11</string>
+		</dict>
+		
+		<key>PostgreSQL</key>
+		<dict>
+			<key>version</key>
+			<string>140</string>
+		</dict>
+		
+		<key>SpamAssassin</key>
+		<dict>
+			<key>version</key>
+			<string>169</string>
+		</dict>
+		
+		<key>amavisd</key>
+		<dict>
+			<key>version</key>
+			<string>140</string>
+		</dict>
+		
+		<key>apache_mod_bonjour</key>
+		<dict>
+			<key>version</key>
+			<string>23</string>
+		</dict>
+		
+		<key>apache_mod_bw</key>
+		<dict>
+			<key>version</key>
+			<string>205</string>
+		</dict>
+		
+		<key>apache_mod_encoding2</key>
+		<dict>
+			<key>version</key>
+			<string>208</string>
+		</dict>
+		
+		<key>clamav</key>
+		<dict>
+			<key>version</key>
+			<string>158</string>
+		</dict>
+		
+		<key>dovecot</key>
+		<dict>
+			<key>version</key>
+			<string>293</string>
+		</dict>
+		
+        </dict>
+</dict>
+</plist>

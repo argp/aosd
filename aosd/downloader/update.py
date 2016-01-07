@@ -1,11 +1,12 @@
-from ..helpers.logging_helper import logging_helper
+import sys
+sys.path.append('.')
 
 import os
 
-from .utilities import utilities
-from .releases import releases
-from .config import config
-from .manager import manager
+from utilities import utilities
+from releases import releases
+from config import config
+from manager import manager
 
 class update(object):
 

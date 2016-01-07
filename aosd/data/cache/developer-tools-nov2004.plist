@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>build</key>
+	<string>7K579</string>
+	<key>inherits</key>
+	<string>7K571</string>
+	<key>projects</key>
+	<dict>	
+		
+		<key>gcc_os</key>
+		<dict>
+			<key>version</key>
+			<string>1671</string>
+		</dict>
+		
+        </dict>
+</dict>
+</plist>

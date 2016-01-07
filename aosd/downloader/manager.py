@@ -1,6 +1,9 @@
-from __future__ import absolute_import
+import os
+import sys
+sys.path.append('.')
+sys.path.append('..')
 
-from ..helpers.logging_helper import logging_helper
+from helpers.logging_helper import logging_helper
 
 try:
     import urllib.request as comp_urlreq # For Python 3.0 and later
@@ -17,11 +20,11 @@ import gzip
 import tarfile
 import plistlib
 
-from .config import config
-from .Builds import Builds
-from .utilities import utilities
-from .Hashes import Hashes
-from ..version import __version__ as AOSD_VERSION
+from config import config
+from Builds import Builds
+from utilities import utilities
+from Hashes import Hashes
+from version import __version__ as AOSD_VERSION
 
 class manager(object):
 
@@ -78,11 +81,22 @@ class manager(object):
         
 
     @classmethod
-    def DownloadPackageTarball(cls, release_type, package_name, build_number, check_hash=True):
+    def DownloadPackageTarball(cls, release_type, package_name, build_number, \
+            release_version = '', check_hash = True):
+        
         downloaded_directory_path = ''
         tarball_address = cls.CreateTarballURL(release_type, package_name, build_number)
         package_file_name = os.path.basename(tarball_address)
         output_directory = os.path.expanduser(config.getDownloadDir())
+
+        if release_version != '':
+            output_directory = output_directory + '/' + release_version
+        
+        try:
+            os.makedirs(output_directory)
+        except OSError:
+            pass
+
         output_file = os.path.join(output_directory, package_file_name)
         download_successful = cls.DownloadFileFromURLToPath(tarball_address, output_file)
         tar_name = os.path.splitext(package_file_name)[0]

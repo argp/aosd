@@ -1,11 +1,14 @@
 """
 imports
 """
-from .RootCmd import RootCmd
-from ..downloader.config import config
+import sys
+sys.path.append('.')
+sys.path.append('..')
+from RootCmd import RootCmd
+from downloader.config import config
 
-from ..helpers.logging_helper import logging_helper
-from ..helpers.argument_helper import argument_helper
+from helpers.logging_helper import logging_helper
+from helpers.argument_helper import argument_helper
 
 class CmdConfig(RootCmd):
     """

@@ -1,4 +1,6 @@
 """
 commands for the interactive console
 """
-from .InteractiveInput import *
+import sys
+sys.path.append('.')
+from InteractiveInput import *

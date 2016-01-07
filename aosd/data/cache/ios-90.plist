@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>build</key>
+	<string>13A340</string>
+	<key>inherits</key>
+	<string></string>
+	<key>projects</key>
+	<dict>	
+		
+		<key>JavaScriptCore</key>
+		<dict>
+			<key>version</key>
+			<string>7601.1.46.3</string>
+		</dict>
+		
+		<key>WTF</key>
+		<dict>
+			<key>version</key>
+			<string>7601.1.46.3</string>
+		</dict>
+		
+		<key>WebCore</key>
+		<dict>
+			<key>version</key>
+			<string>7601.1.46.10</string>
+		</dict>
+		
+		<key>WebKit</key>
+		<dict>
+			<key>version</key>
+			<string>7601.1.46.9</string>
+		</dict>
+		
+		<key>WebKit2</key>
+		<dict>
+			<key>version</key>
+			<string>7601.1.46.9</string>
+		</dict>
+		
+		<key>ld64</key>
+		<dict>
+			<key>version</key>
+			<string>253.3</string>
+		</dict>
+		
+		<key>libiconv</key>
+		<dict>
+			<key>version</key>
+			<string>44</string>
+		</dict>
+		
+        </dict>
+</dict>
+</plist>

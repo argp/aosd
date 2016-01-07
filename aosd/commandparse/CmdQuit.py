@@ -1,11 +1,14 @@
 """
 imports
 """
-from .RootCmd import RootCmd
 import sys
+sys.path.append('.')
+sys.path.append('..')
 
-from ..helpers.logging_helper import logging_helper
-from ..helpers.argument_helper import argument_helper
+from RootCmd import RootCmd
+
+from helpers.logging_helper import logging_helper
+from helpers.argument_helper import argument_helper
 
 class CmdQuit(RootCmd):
 

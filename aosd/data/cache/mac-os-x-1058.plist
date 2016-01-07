@@ -1,0 +1,2240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>build</key>
+	<string>9L30</string>
+	<key>inherits</key>
+	<string>9J61</string>
+	<key>projects</key>
+	<dict>	
+		
+		<key>Apple16X50Serial</key>
+		<dict>
+			<key>version</key>
+			<string>19.3</string>
+		</dict>
+		
+		<key>Apple3Com3C90x</key>
+		<dict>
+			<key>version</key>
+			<string>10</string>
+		</dict>
+		
+		<key>AppleADBButtons</key>
+		<dict>
+			<key>version</key>
+			<string>300</string>
+		</dict>
+		
+		<key>AppleADBKeyboard</key>
+		<dict>
+			<key>version</key>
+			<string>239.1</string>
+		</dict>
+		
+		<key>AppleADBMouse</key>
+		<dict>
+			<key>version</key>
+			<string>212</string>
+		</dict>
+		
+		<key>AppleAPIC</key>
+		<dict>
+			<key>version</key>
+			<string>13</string>
+		</dict>
+		
+		<key>AppleCore99NVRAM</key>
+		<dict>
+			<key>version</key>
+			<string>111.3.1</string>
+		</dict>
+		
+		<key>AppleFan</key>
+		<dict>
+			<key>version</key>
+			<string>110.3.1</string>
+		</dict>
+		
+		<key>AppleFileSystemDriver</key>
+		<dict>
+			<key>version</key>
+			<string>12</string>
+		</dict>
+		
+		<key>AppleFlashNVRAM</key>
+		<dict>
+			<key>version</key>
+			<string>105.4.0</string>
+		</dict>
+		
+		<key>AppleGMACEthernet</key>
+		<dict>
+			<key>version</key>
+			<string>159.3.1</string>
+		</dict>
+		
+		<key>AppleGPIO</key>
+		<dict>
+			<key>version</key>
+			<string>131.0.0</string>
+		</dict>
+		
+		<key>AppleHWSensor</key>
+		<dict>
+			<key>version</key>
+			<string>190</string>
+		</dict>
+		
+		<key>AppleI2C</key>
+		<dict>
+			<key>version</key>
+			<string>400.0.3</string>
+		</dict>
+		
+		<key>AppleI2S</key>
+		<dict>
+			<key>version</key>
+			<string>101.3.1</string>
+		</dict>
+		
+		<key>AppleIntel8255x</key>
+		<dict>
+			<key>version</key>
+			<string>19</string>
+		</dict>
+		
+		<key>AppleIntelPIIXATA</key>
+		<dict>
+			<key>version</key>
+			<string>201.0.2</string>
+		</dict>
+		
+		<key>AppleK2SATA</key>
+		<dict>
+			<key>version</key>
+			<string>104.3.2</string>
+		</dict>
+		
+		<key>AppleK2SATARoot</key>
+		<dict>
+			<key>version</key>
+			<string>105.2.2</string>
+		</dict>
+		
+		<key>AppleKauaiATA</key>
+		<dict>
+			<key>version</key>
+			<string>121.3.4</string>
+		</dict>
+		
+		<key>AppleKeyLargo</key>
+		<dict>
+			<key>version</key>
+			<string>172.3.1</string>
+		</dict>
+		
+		<key>AppleKeyswitch</key>
+		<dict>
+			<key>version</key>
+			<string>104.0.1</string>
+		</dict>
+		
+		<key>AppleKiwiATA</key>
+		<dict>
+			<key>version</key>
+			<string>102.3.2</string>
+		</dict>
+		
+		<key>AppleKiwiRoot</key>
+		<dict>
+			<key>version</key>
+			<string>105.3.1</string>
+		</dict>
+		
+		<key>AppleMPIC</key>
+		<dict>
+			<key>version</key>
+			<string>1.5.3</string>
+		</dict>
+		
+		<key>AppleMacRISC2PE</key>
+		<dict>
+			<key>version</key>
+			<string>187.0.5</string>
+		</dict>
+		
+		<key>AppleMacRISC4PE</key>
+		<dict>
+			<key>version</key>
+			<string>204.0.9</string>
+		</dict>
+		
+		<key>AppleMacRiscPCI</key>
+		<dict>
+			<key>version</key>
+			<string>3.4</string>
+		</dict>
+		
+		<key>AppleMediaBay</key>
+		<dict>
+			<key>version</key>
+			<string>102.3.1</string>
+		</dict>
+		
+		<key>AppleOnboardAudio</key>
+		<dict>
+			<key>version</key>
+			<string>258.3.1</string>
+		</dict>
+		
+		<key>ApplePCCard16ATA</key>
+		<dict>
+			<key>version</key>
+			<string>113</string>
+		</dict>
+		
+		<key>ApplePCCardATA</key>
+		<dict>
+			<key>version</key>
+			<string>103.3.2</string>
+		</dict>
+		
+		<key>AppleRAID</key>
+		<dict>
+			<key>version</key>
+			<string>3.0.19</string>
+		</dict>
+		
+		<key>AppleRS232Serial</key>
+		<dict>
+			<key>version</key>
+			<string>130.2.7</string>
+		</dict>
+		
+		<key>AppleRTL8139Ethernet</key>
+		<dict>
+			<key>version</key>
+			<string>141</string>
+		</dict>
+		
+		<key>AppleSCCSerial</key>
+		<dict>
+			<key>version</key>
+			<string>132.4.2</string>
+		</dict>
+		
+		<key>AppleSMBIOS</key>
+		<dict>
+			<key>version</key>
+			<string>38</string>
+		</dict>
+		
+		<key>AppleSym8xx</key>
+		<dict>
+			<key>version</key>
+			<string>122.3.1</string>
+		</dict>
+		
+		<key>AppleTalk</key>
+		<dict>
+			<key>version</key>
+			<string>91</string>
+		</dict>
+		
+		<key>AppleThermal</key>
+		<dict>
+			<key>version</key>
+			<string>101.3.2</string>
+		</dict>
+		
+		<key>AppleUSBCDCDriver</key>
+		<dict>
+			<key>version</key>
+			<string>3213.4.1</string>
+		</dict>
+		
+		<key>AppleUSBIrDA</key>
+		<dict>
+			<key>version</key>
+			<string>144.4.0</string>
+		</dict>
+		
+		<key>AppleVIA</key>
+		<dict>
+			<key>version</key>
+			<string>151.0.1</string>
+		</dict>
+		
+		<key>BerkeleyDB</key>
+		<dict>
+			<key>version</key>
+			<string>15</string>
+		</dict>
+		
+		<key>BootCache</key>
+		<dict>
+			<key>version</key>
+			<string>43.12</string>
+		</dict>
+		
+		<key>BootX</key>
+		<dict>
+			<key>version</key>
+			<string>81</string>
+		</dict>
+		
+		<key>CF</key>
+		<dict>
+			<key>version</key>
+			<string>476.19</string>
+		</dict>
+		
+		<key>CPAN</key>
+		<dict>
+			<key>version</key>
+			<string>20</string>
+		</dict>
+		
+		<key>CPANInternal</key>
+		<dict>
+			<key>version</key>
+			<string>32</string>
+		</dict>
+		
+		<key>ChatServer</key>
+		<dict>
+			<key>version</key>
+			<string>263.1</string>
+		</dict>
+		
+		<key>Chess</key>
+		<dict>
+			<key>version</key>
+			<string>109.0.3</string>
+		</dict>
+		
+		<key>CommonCrypto</key>
+		<dict>
+			<key>version</key>
+			<string>32207</string>
+		</dict>
+		
+		<key>CoreOSMakefiles</key>
+		<dict>
+			<key>version</key>
+			<string>52</string>
+		</dict>
+		
+		<key>CrackLib</key>
+		<dict>
+			<key>version</key>
+			<string>30889</string>
+		</dict>
+		
+		<key>Csu</key>
+		<dict>
+			<key>version</key>
+			<string>75</string>
+		</dict>
+		
+		<key>CyrusIMAP</key>
+		<dict>
+			<key>version</key>
+			<string>187.4</string>
+		</dict>
+		
+		<key>DSPasswordServerPlugin</key>
+		<dict>
+			<key>version</key>
+			<string>208.6</string>
+		</dict>
+		
+		<key>DSTools</key>
+		<dict>
+			<key>version</key>
+			<string>112.1</string>
+		</dict>
+		
+		<key>DirectoryService</key>
+		<dict>
+			<key>version</key>
+			<string>514.25</string>
+		</dict>
+		
+		<key>DiskArbitration</key>
+		<dict>
+			<key>version</key>
+			<string>183</string>
+		</dict>
+		
+		<key>DynamicPowerStep</key>
+		<dict>
+			<key>version</key>
+			<string>1.6.0</string>
+		</dict>
+		
+		<key>FastCGI</key>
+		<dict>
+			<key>version</key>
+			<string>4</string>
+		</dict>
+		
+		<key>ICU</key>
+		<dict>
+			<key>version</key>
+			<string>8.11.4</string>
+		</dict>
+		
+		<key>IOACPIFamily</key>
+		<dict>
+			<key>version</key>
+			<string>5</string>
+		</dict>
+		
+		<key>IOADBFamily</key>
+		<dict>
+			<key>version</key>
+			<string>6</string>
+		</dict>
+		
+		<key>IOATAFamily</key>
+		<dict>
+			<key>version</key>
+			<string>202.0.1</string>
+		</dict>
+		
+		<key>IOATAPIProtocolTransport</key>
+		<dict>
+			<key>version</key>
+			<string>153.0.1</string>
+		</dict>
+		
+		<key>IOAudioFamily</key>
+		<dict>
+			<key>version</key>
+			<string>169.4.5</string>
+		</dict>
+		
+		<key>IOBDStorageFamily</key>
+		<dict>
+			<key>version</key>
+			<string>6</string>
+		</dict>
+		
+		<key>IOCDStorageFamily</key>
+		<dict>
+			<key>version</key>
+			<string>39</string>
+		</dict>
+		
+		<key>IODVDStorageFamily</key>
+		<dict>
+			<key>version</key>
+			<string>26</string>
+		</dict>
+		
+		<key>IOFWDVComponents</key>
+		<dict>
+			<key>version</key>
+			<string>195.4.0</string>
+		</dict>
+		
+		<key>IOFireWireAVC</key>
+		<dict>
+			<key>version</key>
+			<string>223.4.1</string>
+		</dict>
+		
+		<key>IOFireWireFamily</key>
+		<dict>
+			<key>version</key>
+			<string>349.4.0</string>
+		</dict>
+		
+		<key>IOFireWireIP</key>
+		<dict>
+			<key>version</key>
+			<string>177.4.0</string>
+		</dict>
+		
+		<key>IOFireWireSBP2</key>
+		<dict>
+			<key>version</key>
+			<string>198.4.0</string>
+		</dict>
+		
+		<key>IOFireWireSerialBusProtocolTransport</key>
+		<dict>
+			<key>version</key>
+			<string>152.0.2</string>
+		</dict>
+		
+		<key>IOGraphics</key>
+		<dict>
+			<key>version</key>
+			<string>305.14</string>
+		</dict>
+		
+		<key>IOHIDFamily</key>
+		<dict>
+			<key>version</key>
+			<string>258.14</string>
+		</dict>
+		
+		<key>IOI2CFamily</key>
+		<dict>
+			<key>version</key>
+			<string>111.0.2</string>
+		</dict>
+		
+		<key>IOKitTools</key>
+		<dict>
+			<key>version</key>
+			<string>76</string>
+		</dict>
+		
+		<key>IOKitUser</key>
+		<dict>
+			<key>version</key>
+			<string>388.53.30</string>
+		</dict>
+		
+		<key>IONetworkingFamily</key>
+		<dict>
+			<key>version</key>
+			<string>47.3</string>
+		</dict>
+		
+		<key>IOPCCardFamily</key>
+		<dict>
+			<key>version</key>
+			<string>48</string>
+		</dict>
+		
+		<key>IOPCIFamily</key>
+		<dict>
+			<key>version</key>
+			<string>110</string>
+		</dict>
+		
+		<key>IOSCSIParallelFamily</key>
+		<dict>
+			<key>version</key>
+			<string>152.1.1</string>
+		</dict>
+		
+		<key>IOSerialFamily</key>
+		<dict>
+			<key>version</key>
+			<string>32.2</string>
+		</dict>
+		
+		<key>IOStorageFamily</key>
+		<dict>
+			<key>version</key>
+			<string>92.9</string>
+		</dict>
+		
+		<key>IOUSBFamily</key>
+		<dict>
+			<key>version</key>
+			<string>349.4.3</string>
+		</dict>
+		
+		<key>IOUSBMassStorageClass</key>
+		<dict>
+			<key>version</key>
+			<string>208.0.1</string>
+		</dict>
+		
+		<key>JavaScriptCore</key>
+		<dict>
+			<key>version</key>
+			<string>5530.19</string>
+		</dict>
+		
+		<key>JavaScriptGlue</key>
+		<dict>
+			<key>version</key>
+			<string>5530.19</string>
+		</dict>
+		
+		<key>Kerberos</key>
+		<dict>
+			<key>version</key>
+			<string>75.10.11</string>
+		</dict>
+		
+		<key>KerberosHelper</key>
+		<dict>
+			<key>version</key>
+			<string>31.5</string>
+		</dict>
+		
+		<key>KeyLargoATA</key>
+		<dict>
+			<key>version</key>
+			<string>111.3.1</string>
+		</dict>
+		
+		<key>Libc</key>
+		<dict>
+			<key>version</key>
+			<string>498.1.7</string>
+		</dict>
+		
+		<key>Libcpp_kext</key>
+		<dict>
+			<key>version</key>
+			<string>5</string>
+		</dict>
+		
+		<key>Libinfo</key>
+		<dict>
+			<key>version</key>
+			<string>278.0.3</string>
+		</dict>
+		
+		<key>Libm</key>
+		<dict>
+			<key>version</key>
+			<string>292.4</string>
+		</dict>
+		
+		<key>Libnotify</key>
+		<dict>
+			<key>version</key>
+			<string>36</string>
+		</dict>
+		
+		<key>Librpcsvc</key>
+		<dict>
+			<key>version</key>
+			<string>15</string>
+		</dict>
+		
+		<key>Libstreams</key>
+		<dict>
+			<key>version</key>
+			<string>25</string>
+		</dict>
+		
+		<key>Libsystem</key>
+		<dict>
+			<key>version</key>
+			<string>111.1.4</string>
+		</dict>
+		
+		<key>Liby</key>
+		<dict>
+			<key>version</key>
+			<string>15</string>
+		</dict>
+		
+		<key>MySQL</key>
+		<dict>
+			<key>version</key>
+			<string>45</string>
+		</dict>
+		
+		<key>NFS</key>
+		<dict>
+			<key>version</key>
+			<string>25.2</string>
+		</dict>
+		
+		<key>OpenAL</key>
+		<dict>
+			<key>version</key>
+			<string>29</string>
+		</dict>
+		
+		<key>OpenDirectory</key>
+		<dict>
+			<key>version</key>
+			<string>39</string>
+		</dict>
+		
+		<key>OpenLDAP</key>
+		<dict>
+			<key>version</key>
+			<string>110</string>
+		</dict>
+		
+		<key>OpenSSH</key>
+		<dict>
+			<key>version</key>
+			<string>95.1.5</string>
+		</dict>
+		
+		<key>OpenSSL</key>
+		<dict>
+			<key>version</key>
+			<string>46.11</string>
+		</dict>
+		
+		<key>OpenSSL096</key>
+		<dict>
+			<key>version</key>
+			<string>6.2</string>
+		</dict>
+		
+		<key>PowerManagement</key>
+		<dict>
+			<key>version</key>
+			<string>158.10.9</string>
+		</dict>
+		
+		<key>PyRSS2Gen</key>
+		<dict>
+			<key>version</key>
+			<string>5</string>
+		</dict>
+		
+		<key>RubyCocoa</key>
+		<dict>
+			<key>version</key>
+			<string>57.2</string>
+		</dict>
+		
+		<key>RubyGems</key>
+		<dict>
+			<key>version</key>
+			<string>15.2</string>
+		</dict>
+		
+		<key>RubyOnRails</key>
+		<dict>
+			<key>version</key>
+			<string>25.2</string>
+		</dict>
+		
+		<key>SCSIHeaderInstaller</key>
+		<dict>
+			<key>version</key>
+			<string>100.0.2</string>
+		</dict>
+		
+		<key>SQLite</key>
+		<dict>
+			<key>version</key>
+			<string>46.1</string>
+		</dict>
+		
+		<key>Security</key>
+		<dict>
+			<key>version</key>
+			<string>36371</string>
+		</dict>
+		
+		<key>SecurityTokend</key>
+		<dict>
+			<key>version</key>
+			<string>32363</string>
+		</dict>
+		
+		<key>SecurityTool</key>
+		<dict>
+			<key>version</key>
+			<string>36956</string>
+		</dict>
+		
+		<key>SmartCardServices</key>
+		<dict>
+			<key>version</key>
+			<string>34733</string>
+		</dict>
+		
+		<key>SpamAssassin</key>
+		<dict>
+			<key>version</key>
+			<string>137.1</string>
+		</dict>
+		
+		<key>SquirrelMail</key>
+		<dict>
+			<key>version</key>
+			<string>29</string>
+		</dict>
+		
+		<key>SystemStubs</key>
+		<dict>
+			<key>version</key>
+			<string>6</string>
+		</dict>
+		
+		<key>TargetConfig</key>
+		<dict>
+			<key>version</key>
+			<string>6</string>
+		</dict>
+		
+		<key>TimeZoneData</key>
+		<dict>
+			<key>version</key>
+			<string>19</string>
+		</dict>
+		
+		<key>Tokend</key>
+		<dict>
+			<key>version</key>
+			<string>35209</string>
+		</dict>
+		
+		<key>Twisted</key>
+		<dict>
+			<key>version</key>
+			<string>5</string>
+		</dict>
+		
+		<key>UserNotification</key>
+		<dict>
+			<key>version</key>
+			<string>21</string>
+		</dict>
+		
+		<key>WebCore</key>
+		<dict>
+			<key>version</key>
+			<string>5530.19</string>
+		</dict>
+		
+		<key>X11apps</key>
+		<dict>
+			<key>version</key>
+			<string>14.3</string>
+		</dict>
+		
+		<key>X11fonts</key>
+		<dict>
+			<key>version</key>
+			<string>5.1</string>
+		</dict>
+		
+		<key>X11libs</key>
+		<dict>
+			<key>version</key>
+			<string>17.6</string>
+		</dict>
+		
+		<key>X11misc</key>
+		<dict>
+			<key>version</key>
+			<string>6</string>
+		</dict>
+		
+		<key>X11proto</key>
+		<dict>
+			<key>version</key>
+			<string>15.5</string>
+		</dict>
+		
+		<key>X11server</key>
+		<dict>
+			<key>version</key>
+			<string>48.7</string>
+		</dict>
+		
+		<key>adv_cmds</key>
+		<dict>
+			<key>version</key>
+			<string>119</string>
+		</dict>
+		
+		<key>amavisd</key>
+		<dict>
+			<key>version</key>
+			<string>110.2</string>
+		</dict>
+		
+		<key>apache</key>
+		<dict>
+			<key>version</key>
+			<string>731.0.3</string>
+		</dict>
+		
+		<key>apache1</key>
+		<dict>
+			<key>version</key>
+			<string>697</string>
+		</dict>
+		
+		<key>apache_mod_bonjour</key>
+		<dict>
+			<key>version</key>
+			<string>9</string>
+		</dict>
+		
+		<key>apache_mod_fastcgi</key>
+		<dict>
+			<key>version</key>
+			<string>3</string>
+		</dict>
+		
+		<key>apache_mod_hfs_apple</key>
+		<dict>
+			<key>version</key>
+			<string>7</string>
+		</dict>
+		
+		<key>apache_mod_perl</key>
+		<dict>
+			<key>version</key>
+			<string>101</string>
+		</dict>
+		
+		<key>apache_mod_perl1</key>
+		<dict>
+			<key>version</key>
+			<string>16</string>
+		</dict>
+		
+		<key>apache_mod_php</key>
+		<dict>
+			<key>version</key>
+			<string>44.2</string>
+		</dict>
+		
+		<key>apache_mod_php4</key>
+		<dict>
+			<key>version</key>
+			<string>33</string>
+		</dict>
+		
+		<key>apache_mod_ssl</key>
+		<dict>
+			<key>version</key>
+			<string>690</string>
+		</dict>
+		
+		<key>apr</key>
+		<dict>
+			<key>version</key>
+			<string>12</string>
+		</dict>
+		
+		<key>architecture</key>
+		<dict>
+			<key>version</key>
+			<string>254.0.5</string>
+		</dict>
+		
+		<key>at_cmds</key>
+		<dict>
+			<key>version</key>
+			<string>54</string>
+		</dict>
+		
+		<key>autoconf</key>
+		<dict>
+			<key>version</key>
+			<string>14</string>
+		</dict>
+		
+		<key>autofs</key>
+		<dict>
+			<key>version</key>
+			<string>109.8</string>
+		</dict>
+		
+		<key>automake</key>
+		<dict>
+			<key>version</key>
+			<string>7</string>
+		</dict>
+		
+		<key>awk</key>
+		<dict>
+			<key>version</key>
+			<string>11</string>
+		</dict>
+		
+		<key>bash</key>
+		<dict>
+			<key>version</key>
+			<string>76.2</string>
+		</dict>
+		
+		<key>basic_cmds</key>
+		<dict>
+			<key>version</key>
+			<string>48</string>
+		</dict>
+		
+		<key>bc</key>
+		<dict>
+			<key>version</key>
+			<string>21</string>
+		</dict>
+		
+		<key>bind9</key>
+		<dict>
+			<key>version</key>
+			<string>26.1.5</string>
+		</dict>
+		
+		<key>bison</key>
+		<dict>
+			<key>version</key>
+			<string>13</string>
+		</dict>
+		
+		<key>bison1</key>
+		<dict>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		
+		<key>bless</key>
+		<dict>
+			<key>version</key>
+			<string>63.2</string>
+		</dict>
+		
+		<key>bootp</key>
+		<dict>
+			<key>version</key>
+			<string>170.1</string>
+		</dict>
+		
+		<key>bootstrap_cmds</key>
+		<dict>
+			<key>version</key>
+			<string>60.1</string>
+		</dict>
+		
+		<key>bsdmake</key>
+		<dict>
+			<key>version</key>
+			<string>23</string>
+		</dict>
+		
+		<key>bsm</key>
+		<dict>
+			<key>version</key>
+			<string>13</string>
+		</dict>
+		
+		<key>bzip2</key>
+		<dict>
+			<key>version</key>
+			<string>16.5</string>
+		</dict>
+		
+		<key>cctools</key>
+		<dict>
+			<key>version</key>
+			<string>667.3</string>
+		</dict>
+		
+		<key>cddafs</key>
+		<dict>
+			<key>version</key>
+			<string>230.0.5</string>
+		</dict>
+		
+		<key>clamav</key>
+		<dict>
+			<key>version</key>
+			<string>116.6</string>
+		</dict>
+		
+		<key>configd</key>
+		<dict>
+			<key>version</key>
+			<string>212.2</string>
+		</dict>
+		
+		<key>copyfile</key>
+		<dict>
+			<key>version</key>
+			<string>42</string>
+		</dict>
+		
+		<key>cron</key>
+		<dict>
+			<key>version</key>
+			<string>30</string>
+		</dict>
+		
+		<key>crontabs</key>
+		<dict>
+			<key>version</key>
+			<string>34</string>
+		</dict>
+		
+		<key>cscope</key>
+		<dict>
+			<key>version</key>
+			<string>14</string>
+		</dict>
+		
+		<key>cups</key>
+		<dict>
+			<key>version</key>
+			<string>136.18</string>
+		</dict>
+		
+		<key>curl</key>
+		<dict>
+			<key>version</key>
+			<string>42</string>
+		</dict>
+		
+		<key>cvs</key>
+		<dict>
+			<key>version</key>
+			<string>39</string>
+		</dict>
+		
+		<key>cvs_wrapped</key>
+		<dict>
+			<key>version</key>
+			<string>13</string>
+		</dict>
+		
+		<key>cxxfilt</key>
+		<dict>
+			<key>version</key>
+			<string>7</string>
+		</dict>
+		
+		<key>developer_cmds</key>
+		<dict>
+			<key>version</key>
+			<string>49</string>
+		</dict>
+		
+		<key>diffstat</key>
+		<dict>
+			<key>version</key>
+			<string>5</string>
+		</dict>
+		
+		<key>diskdev_cmds</key>
+		<dict>
+			<key>version</key>
+			<string>421.8</string>
+		</dict>
+		
+		<key>disklabel</key>
+		<dict>
+			<key>version</key>
+			<string>2</string>
+		</dict>
+		
+		<key>distcc</key>
+		<dict>
+			<key>version</key>
+			<string>881</string>
+		</dict>
+		
+		<key>doc_cmds</key>
+		<dict>
+			<key>version</key>
+			<string>47</string>
+		</dict>
+		
+		<key>dtrace</key>
+		<dict>
+			<key>version</key>
+			<string>48.1</string>
+		</dict>
+		
+		<key>dyld</key>
+		<dict>
+			<key>version</key>
+			<string>97.1</string>
+		</dict>
+		
+		<key>eap8021x</key>
+		<dict>
+			<key>version</key>
+			<string>49.9</string>
+		</dict>
+		
+		<key>efax</key>
+		<dict>
+			<key>version</key>
+			<string>28</string>
+		</dict>
+		
+		<key>emacs</key>
+		<dict>
+			<key>version</key>
+			<string>70.1</string>
+		</dict>
+		
+		<key>enscript</key>
+		<dict>
+			<key>version</key>
+			<string>15</string>
+		</dict>
+		
+		<key>expat</key>
+		<dict>
+			<key>version</key>
+			<string>6</string>
+		</dict>
+		
+		<key>extenTools</key>
+		<dict>
+			<key>version</key>
+			<string>17.3</string>
+		</dict>
+		
+		<key>fetchmail</key>
+		<dict>
+			<key>version</key>
+			<string>30</string>
+		</dict>
+		
+		<key>file</key>
+		<dict>
+			<key>version</key>
+			<string>23</string>
+		</dict>
+		
+		<key>file_cmds</key>
+		<dict>
+			<key>version</key>
+			<string>188</string>
+		</dict>
+		
+		<key>files</key>
+		<dict>
+			<key>version</key>
+			<string>530.1.5</string>
+		</dict>
+		
+		<key>flex</key>
+		<dict>
+			<key>version</key>
+			<string>20.3</string>
+		</dict>
+		
+		<key>freeradius</key>
+		<dict>
+			<key>version</key>
+			<string>11</string>
+		</dict>
+		
+		<key>gcc</key>
+		<dict>
+			<key>version</key>
+			<string>5465</string>
+		</dict>
+		
+		<key>gcc_42</key>
+		<dict>
+			<key>version</key>
+			<string>5531</string>
+		</dict>
+		
+		<key>gcc_os</key>
+		<dict>
+			<key>version</key>
+			<string>1823</string>
+		</dict>
+		
+		<key>gcc_select</key>
+		<dict>
+			<key>version</key>
+			<string>66</string>
+		</dict>
+		
+		<key>gccfast</key>
+		<dict>
+			<key>version</key>
+			<string>1626</string>
+		</dict>
+		
+		<key>gdb</key>
+		<dict>
+			<key>version</key>
+			<string>768</string>
+		</dict>
+		
+		<key>gdbforcw</key>
+		<dict>
+			<key>version</key>
+			<string>5</string>
+		</dict>
+		
+		<key>glibtool</key>
+		<dict>
+			<key>version</key>
+			<string>12</string>
+		</dict>
+		
+		<key>gm4</key>
+		<dict>
+			<key>version</key>
+			<string>12</string>
+		</dict>
+		
+		<key>gnudiff</key>
+		<dict>
+			<key>version</key>
+			<string>14</string>
+		</dict>
+		
+		<key>gnumake</key>
+		<dict>
+			<key>version</key>
+			<string>119</string>
+		</dict>
+		
+		<key>gnuserv</key>
+		<dict>
+			<key>version</key>
+			<string>7</string>
+		</dict>
+		
+		<key>gnutar</key>
+		<dict>
+			<key>version</key>
+			<string>442.0.1</string>
+		</dict>
+		
+		<key>gnuzip</key>
+		<dict>
+			<key>version</key>
+			<string>25</string>
+		</dict>
+		
+		<key>gperf</key>
+		<dict>
+			<key>version</key>
+			<string>4</string>
+		</dict>
+		
+		<key>gpt</key>
+		<dict>
+			<key>version</key>
+			<string>7</string>
+		</dict>
+		
+		<key>graphviz</key>
+		<dict>
+			<key>version</key>
+			<string>622</string>
+		</dict>
+		
+		<key>grep</key>
+		<dict>
+			<key>version</key>
+			<string>24</string>
+		</dict>
+		
+		<key>groff</key>
+		<dict>
+			<key>version</key>
+			<string>31</string>
+		</dict>
+		
+		<key>gssd</key>
+		<dict>
+			<key>version</key>
+			<string>23</string>
+		</dict>
+		
+		<key>gutenprint</key>
+		<dict>
+			<key>version</key>
+			<string>5</string>
+		</dict>
+		
+		<key>headerdoc</key>
+		<dict>
+			<key>version</key>
+			<string>8.6.16</string>
+		</dict>
+		
+		<key>hfs</key>
+		<dict>
+			<key>version</key>
+			<string>165.1</string>
+		</dict>
+		
+		<key>iodbc</key>
+		<dict>
+			<key>version</key>
+			<string>34</string>
+		</dict>
+		
+		<key>ipsec</key>
+		<dict>
+			<key>version</key>
+			<string>34.0.3</string>
+		</dict>
+		
+		<key>ipv6configuration</key>
+		<dict>
+			<key>version</key>
+			<string>27</string>
+		</dict>
+		
+		<key>isoutil</key>
+		<dict>
+			<key>version</key>
+			<string>34</string>
+		</dict>
+		
+		<key>jam</key>
+		<dict>
+			<key>version</key>
+			<string>851</string>
+		</dict>
+		
+		<key>kext_tools</key>
+		<dict>
+			<key>version</key>
+			<string>117.4</string>
+		</dict>
+		
+		<key>keymgr</key>
+		<dict>
+			<key>version</key>
+			<string>18</string>
+		</dict>
+		
+		<key>ksh</key>
+		<dict>
+			<key>version</key>
+			<string>13</string>
+		</dict>
+		
+		<key>launchd</key>
+		<dict>
+			<key>version</key>
+			<string>258.25</string>
+		</dict>
+		
+		<key>ld64</key>
+		<dict>
+			<key>version</key>
+			<string>77.1</string>
+		</dict>
+		
+		<key>less</key>
+		<dict>
+			<key>version</key>
+			<string>20</string>
+		</dict>
+		
+		<key>libedit</key>
+		<dict>
+			<key>version</key>
+			<string>11</string>
+		</dict>
+		
+		<key>libffi</key>
+		<dict>
+			<key>version</key>
+			<string>10</string>
+		</dict>
+		
+		<key>libfs</key>
+		<dict>
+			<key>version</key>
+			<string>7</string>
+		</dict>
+		
+		<key>libgcc</key>
+		<dict>
+			<key>version</key>
+			<string>8.1</string>
+		</dict>
+		
+		<key>libiconv</key>
+		<dict>
+			<key>version</key>
+			<string>24</string>
+		</dict>
+		
+		<key>libmd</key>
+		<dict>
+			<key>version</key>
+			<string>2</string>
+		</dict>
+		
+		<key>libpcap</key>
+		<dict>
+			<key>version</key>
+			<string>18</string>
+		</dict>
+		
+		<key>libresolv</key>
+		<dict>
+			<key>version</key>
+			<string>25.0.2</string>
+		</dict>
+		
+		<key>libsecurity_agent</key>
+		<dict>
+			<key>version</key>
+			<string>32091.1</string>
+		</dict>
+		
+		<key>libsecurity_apple_csp</key>
+		<dict>
+			<key>version</key>
+			<string>35205</string>
+		</dict>
+		
+		<key>libsecurity_apple_cspdl</key>
+		<dict>
+			<key>version</key>
+			<string>32466</string>
+		</dict>
+		
+		<key>libsecurity_apple_file_dl</key>
+		<dict>
+			<key>version</key>
+			<string>29159</string>
+		</dict>
+		
+		<key>libsecurity_apple_x509_cl</key>
+		<dict>
+			<key>version</key>
+			<string>29856</string>
+		</dict>
+		
+		<key>libsecurity_apple_x509_tp</key>
+		<dict>
+			<key>version</key>
+			<string>33583</string>
+		</dict>
+		
+		<key>libsecurity_asn1</key>
+		<dict>
+			<key>version</key>
+			<string>29908</string>
+		</dict>
+		
+		<key>libsecurity_authorization</key>
+		<dict>
+			<key>version</key>
+			<string>32564</string>
+		</dict>
+		
+		<key>libsecurity_cdsa_client</key>
+		<dict>
+			<key>version</key>
+			<string>32432</string>
+		</dict>
+		
+		<key>libsecurity_cdsa_plugin</key>
+		<dict>
+			<key>version</key>
+			<string>29159</string>
+		</dict>
+		
+		<key>libsecurity_cdsa_utilities</key>
+		<dict>
+			<key>version</key>
+			<string>33506</string>
+		</dict>
+		
+		<key>libsecurity_cdsa_utils</key>
+		<dict>
+			<key>version</key>
+			<string>32586</string>
+		</dict>
+		
+		<key>libsecurity_checkpw</key>
+		<dict>
+			<key>version</key>
+			<string>29159</string>
+		</dict>
+		
+		<key>libsecurity_cms</key>
+		<dict>
+			<key>version</key>
+			<string>32521</string>
+		</dict>
+		
+		<key>libsecurity_codesigning</key>
+		<dict>
+			<key>version</key>
+			<string>36924</string>
+		</dict>
+		
+		<key>libsecurity_cssm</key>
+		<dict>
+			<key>version</key>
+			<string>32993</string>
+		</dict>
+		
+		<key>libsecurity_dotmacdl</key>
+		<dict>
+			<key>version</key>
+			<string>29745</string>
+		</dict>
+		
+		<key>libsecurity_filedb</key>
+		<dict>
+			<key>version</key>
+			<string>32868</string>
+		</dict>
+		
+		<key>libsecurity_filevault</key>
+		<dict>
+			<key>version</key>
+			<string>28631</string>
+		</dict>
+		
+		<key>libsecurity_keychain</key>
+		<dict>
+			<key>version</key>
+			<string>36620</string>
+		</dict>
+		
+		<key>libsecurity_ldap_dl</key>
+		<dict>
+			<key>version</key>
+			<string>30174</string>
+		</dict>
+		
+		<key>libsecurity_manifest</key>
+		<dict>
+			<key>version</key>
+			<string>29384</string>
+		</dict>
+		
+		<key>libsecurity_mds</key>
+		<dict>
+			<key>version</key>
+			<string>32820</string>
+		</dict>
+		
+		<key>libsecurity_ocspd</key>
+		<dict>
+			<key>version</key>
+			<string>29518</string>
+		</dict>
+		
+		<key>libsecurity_pkcs12</key>
+		<dict>
+			<key>version</key>
+			<string>32085</string>
+		</dict>
+		
+		<key>libsecurity_sd_cspdl</key>
+		<dict>
+			<key>version</key>
+			<string>34101</string>
+		</dict>
+		
+		<key>libsecurity_smime</key>
+		<dict>
+			<key>version</key>
+			<string>32850</string>
+		</dict>
+		
+		<key>libsecurity_ssl</key>
+		<dict>
+			<key>version</key>
+			<string>36371</string>
+		</dict>
+		
+		<key>libsecurity_utilities</key>
+		<dict>
+			<key>version</key>
+			<string>36433</string>
+		</dict>
+		
+		<key>libsecurityd</key>
+		<dict>
+			<key>version</key>
+			<string>36292</string>
+		</dict>
+		
+		<key>libstdcxx</key>
+		<dict>
+			<key>version</key>
+			<string>16</string>
+		</dict>
+		
+		<key>libstdcxx_SUPanWheat</key>
+		<dict>
+			<key>version</key>
+			<string>16</string>
+		</dict>
+		
+		<key>libtelnet</key>
+		<dict>
+			<key>version</key>
+			<string>7</string>
+		</dict>
+		
+		<key>libutil</key>
+		<dict>
+			<key>version</key>
+			<string>11</string>
+		</dict>
+		
+		<key>libxml2</key>
+		<dict>
+			<key>version</key>
+			<string>17.7.8</string>
+		</dict>
+		
+		<key>libxslt</key>
+		<dict>
+			<key>version</key>
+			<string>8.4.3</string>
+		</dict>
+		
+		<key>lsof</key>
+		<dict>
+			<key>version</key>
+			<string>33</string>
+		</dict>
+		
+		<key>lukemftp</key>
+		<dict>
+			<key>version</key>
+			<string>11</string>
+		</dict>
+		
+		<key>lukemftpd</key>
+		<dict>
+			<key>version</key>
+			<string>33</string>
+		</dict>
+		
+		<key>mDNSResponder</key>
+		<dict>
+			<key>version</key>
+			<string>176.3</string>
+		</dict>
+		
+		<key>mail_cmds</key>
+		<dict>
+			<key>version</key>
+			<string>22</string>
+		</dict>
+		
+		<key>mailman</key>
+		<dict>
+			<key>version</key>
+			<string>126.1</string>
+		</dict>
+		
+		<key>man</key>
+		<dict>
+			<key>version</key>
+			<string>12</string>
+		</dict>
+		
+		<key>misc_cmds</key>
+		<dict>
+			<key>version</key>
+			<string>23</string>
+		</dict>
+		
+		<key>modemccl</key>
+		<dict>
+			<key>version</key>
+			<string>20</string>
+		</dict>
+		
+		<key>msdosfs</key>
+		<dict>
+			<key>version</key>
+			<string>136.6</string>
+		</dict>
+		
+		<key>nano</key>
+		<dict>
+			<key>version</key>
+			<string>4</string>
+		</dict>
+		
+		<key>nasm</key>
+		<dict>
+			<key>version</key>
+			<string>13</string>
+		</dict>
+		
+		<key>ncurses</key>
+		<dict>
+			<key>version</key>
+			<string>21</string>
+		</dict>
+		
+		<key>neon</key>
+		<dict>
+			<key>version</key>
+			<string>8</string>
+		</dict>
+		
+		<key>net_snmp</key>
+		<dict>
+			<key>version</key>
+			<string>121</string>
+		</dict>
+		
+		<key>netcat</key>
+		<dict>
+			<key>version</key>
+			<string>7</string>
+		</dict>
+		
+		<key>netinfo</key>
+		<dict>
+			<key>version</key>
+			<string>382</string>
+		</dict>
+		
+		<key>network_cmds</key>
+		<dict>
+			<key>version</key>
+			<string>307.1.1</string>
+		</dict>
+		
+		<key>notify</key>
+		<dict>
+			<key>version</key>
+			<string>16</string>
+		</dict>
+		
+		<key>ntfs</key>
+		<dict>
+			<key>version</key>
+			<string>52</string>
+		</dict>
+		
+		<key>ntp</key>
+		<dict>
+			<key>version</key>
+			<string>37.3</string>
+		</dict>
+		
+		<key>objc4</key>
+		<dict>
+			<key>version</key>
+			<string>371.2</string>
+		</dict>
+		
+		<key>openmpi</key>
+		<dict>
+			<key>version</key>
+			<string>5</string>
+		</dict>
+		
+		<key>pam</key>
+		<dict>
+			<key>version</key>
+			<string>32.1</string>
+		</dict>
+		
+		<key>pam_modules</key>
+		<dict>
+			<key>version</key>
+			<string>36.2</string>
+		</dict>
+		
+		<key>passwordserver_sasl</key>
+		<dict>
+			<key>version</key>
+			<string>118.1</string>
+		</dict>
+		
+		<key>patch_cmds</key>
+		<dict>
+			<key>version</key>
+			<string>11</string>
+		</dict>
+		
+		<key>pb_makefiles</key>
+		<dict>
+			<key>version</key>
+			<string>128</string>
+		</dict>
+		
+		<key>pbx_jamfiles</key>
+		<dict>
+			<key>version</key>
+			<string>874</string>
+		</dict>
+		
+		<key>pdisk</key>
+		<dict>
+			<key>version</key>
+			<string>6</string>
+		</dict>
+		
+		<key>perl</key>
+		<dict>
+			<key>version</key>
+			<string>51.1.4</string>
+		</dict>
+		
+		<key>portmap</key>
+		<dict>
+			<key>version</key>
+			<string>26</string>
+		</dict>
+		
+		<key>postfix</key>
+		<dict>
+			<key>version</key>
+			<string>174.2</string>
+		</dict>
+		
+		<key>ppp</key>
+		<dict>
+			<key>version</key>
+			<string>314.0.2</string>
+		</dict>
+		
+		<key>procmail</key>
+		<dict>
+			<key>version</key>
+			<string>11</string>
+		</dict>
+		
+		<key>project_makefiles</key>
+		<dict>
+			<key>version</key>
+			<string>126</string>
+		</dict>
+		
+		<key>pyOpenSSL</key>
+		<dict>
+			<key>version</key>
+			<string>2</string>
+		</dict>
+		
+		<key>pyobjc</key>
+		<dict>
+			<key>version</key>
+			<string>14.1.1</string>
+		</dict>
+		
+		<key>python</key>
+		<dict>
+			<key>version</key>
+			<string>30.1.3</string>
+		</dict>
+		
+		<key>python23</key>
+		<dict>
+			<key>version</key>
+			<string>17.1.1</string>
+		</dict>
+		
+		<key>python_dateutil</key>
+		<dict>
+			<key>version</key>
+			<string>2</string>
+		</dict>
+		
+		<key>python_modules</key>
+		<dict>
+			<key>version</key>
+			<string>12</string>
+		</dict>
+		
+		<key>rcs</key>
+		<dict>
+			<key>version</key>
+			<string>13</string>
+		</dict>
+		
+		<key>remote_cmds</key>
+		<dict>
+			<key>version</key>
+			<string>13.0.2</string>
+		</dict>
+		
+		<key>removefile</key>
+		<dict>
+			<key>version</key>
+			<string>11</string>
+		</dict>
+		
+		<key>rsync</key>
+		<dict>
+			<key>version</key>
+			<string>35.2</string>
+		</dict>
+		
+		<key>ruby</key>
+		<dict>
+			<key>version</key>
+			<string>67.6</string>
+		</dict>
+		
+		<key>ruby_dnssd</key>
+		<dict>
+			<key>version</key>
+			<string>6</string>
+		</dict>
+		
+		<key>ruby_libxml</key>
+		<dict>
+			<key>version</key>
+			<string>6.1</string>
+		</dict>
+		
+		<key>samba</key>
+		<dict>
+			<key>version</key>
+			<string>187.8</string>
+		</dict>
+		
+		<key>screen</key>
+		<dict>
+			<key>version</key>
+			<string>12</string>
+		</dict>
+		
+		<key>security_authtrampoline</key>
+		<dict>
+			<key>version</key>
+			<string>32534</string>
+		</dict>
+		
+		<key>security_certificates</key>
+		<dict>
+			<key>version</key>
+			<string>36946</string>
+		</dict>
+		
+		<key>security_certtool</key>
+		<dict>
+			<key>version</key>
+			<string>31828</string>
+		</dict>
+		
+		<key>security_crlrefresh</key>
+		<dict>
+			<key>version</key>
+			<string>31832</string>
+		</dict>
+		
+		<key>security_dotmac_tp</key>
+		<dict>
+			<key>version</key>
+			<string>33607</string>
+		</dict>
+		
+		<key>security_ocspd</key>
+		<dict>
+			<key>version</key>
+			<string>32148</string>
+		</dict>
+		
+		<key>security_privportserver</key>
+		<dict>
+			<key>version</key>
+			<string>26778</string>
+		</dict>
+		
+		<key>security_systemkeychain</key>
+		<dict>
+			<key>version</key>
+			<string>33578</string>
+		</dict>
+		
+		<key>securityd</key>
+		<dict>
+			<key>version</key>
+			<string>36489</string>
+		</dict>
+		
+		<key>shell_cmds</key>
+		<dict>
+			<key>version</key>
+			<string>118</string>
+		</dict>
+		
+		<key>smb</key>
+		<dict>
+			<key>version</key>
+			<string>348.7</string>
+		</dict>
+		
+		<key>srm</key>
+		<dict>
+			<key>version</key>
+			<string>6</string>
+		</dict>
+		
+		<key>stmalloc</key>
+		<dict>
+			<key>version</key>
+			<string>4</string>
+		</dict>
+		
+		<key>subversion</key>
+		<dict>
+			<key>version</key>
+			<string>16</string>
+		</dict>
+		
+		<key>sudo</key>
+		<dict>
+			<key>version</key>
+			<string>28</string>
+		</dict>
+		
+		<key>svk</key>
+		<dict>
+			<key>version</key>
+			<string>9</string>
+		</dict>
+		
+		<key>swig</key>
+		<dict>
+			<key>version</key>
+			<string>4</string>
+		</dict>
+		
+		<key>syslog</key>
+		<dict>
+			<key>version</key>
+			<string>69.0.4</string>
+		</dict>
+		
+		<key>system_cmds</key>
+		<dict>
+			<key>version</key>
+			<string>433.8</string>
+		</dict>
+		
+		<key>system_config</key>
+		<dict>
+			<key>version</key>
+			<string>49</string>
+		</dict>
+		
+		<key>tcl</key>
+		<dict>
+			<key>version</key>
+			<string>64</string>
+		</dict>
+		
+		<key>tcp_wrappers</key>
+		<dict>
+			<key>version</key>
+			<string>18</string>
+		</dict>
+		
+		<key>tcpdump</key>
+		<dict>
+			<key>version</key>
+			<string>23</string>
+		</dict>
+		
+		<key>tcsh</key>
+		<dict>
+			<key>version</key>
+			<string>60</string>
+		</dict>
+		
+		<key>texi2html</key>
+		<dict>
+			<key>version</key>
+			<string>5</string>
+		</dict>
+		
+		<key>texinfo</key>
+		<dict>
+			<key>version</key>
+			<string>17</string>
+		</dict>
+		
+		<key>text_cmds</key>
+		<dict>
+			<key>version</key>
+			<string>69</string>
+		</dict>
+		
+		<key>tidy</key>
+		<dict>
+			<key>version</key>
+			<string>15.2</string>
+		</dict>
+		
+		<key>top</key>
+		<dict>
+			<key>version</key>
+			<string>39</string>
+		</dict>
+		
+		<key>usertemplate</key>
+		<dict>
+			<key>version</key>
+			<string>66</string>
+		</dict>
+		
+		<key>uucp</key>
+		<dict>
+			<key>version</key>
+			<string>10</string>
+		</dict>
+		
+		<key>vim</key>
+		<dict>
+			<key>version</key>
+			<string>39</string>
+		</dict>
+		
+		<key>webdavfs</key>
+		<dict>
+			<key>version</key>
+			<string>252.8</string>
+		</dict>
+		
+		<key>wxWidgets</key>
+		<dict>
+			<key>version</key>
+			<string>11</string>
+		</dict>
+		
+		<key>xar</key>
+		<dict>
+			<key>version</key>
+			<string>30</string>
+		</dict>
+		
+		<key>xelf</key>
+		<dict>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		
+		<key>xnu</key>
+		<dict>
+			<key>version</key>
+			<string>1228.15.4</string>
+		</dict>
+		
+		<key>zip</key>
+		<dict>
+			<key>version</key>
+			<string>9</string>
+		</dict>
+		
+		<key>zlib</key>
+		<dict>
+			<key>version</key>
+			<string>18</string>
+		</dict>
+		
+		<key>zsh</key>
+		<dict>
+			<key>version</key>
+			<string>48</string>
+		</dict>
+		
+        </dict>
+</dict>
+</plist>

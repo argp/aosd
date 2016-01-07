@@ -5,21 +5,24 @@ if sys.platform == 'darwin' and not 'ppc' in platform.machine():
 else:
     from cmd import Cmd
 
-from .CmdBuild import CmdBuild
-from .CmdCache import CmdCache
-from .CmdConfig import CmdConfig
-from .CmdDiff import CmdDiff
-from .CmdDownload import CmdDownload
-from .CmdHash import CmdHash
-from .CmdList import CmdList
-from .CmdPackage import CmdPackage
-from .CmdQuit import CmdQuit
-from .CmdType import CmdType
-from .CmdUpdate import CmdUpdate
-from .CmdVersion import CmdVersion
+sys.path.append('.')
+sys.path.append('..')
 
-from ..downloader.releases import releases
-from ..version import __version__ as AOSD_VERSION
+from CmdBuild import CmdBuild
+from CmdCache import CmdCache
+from CmdConfig import CmdConfig
+from CmdDiff import CmdDiff
+from CmdDownload import CmdDownload
+from CmdHash import CmdHash
+from CmdList import CmdList
+from CmdPackage import CmdPackage
+from CmdQuit import CmdQuit
+from CmdType import CmdType
+from CmdUpdate import CmdUpdate
+from CmdVersion import CmdVersion
+
+from downloader.releases import releases
+from version import __version__ as AOSD_VERSION
 
 class InteractiveInput(Cmd):
     prompt = ':> '

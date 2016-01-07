@@ -1,10 +1,12 @@
-from __future__ import absolute_import
+import sys
+sys.path.append('.')
+sys.path.append('..')
 
-from ..helpers.logging_helper import logging_helper
-from ..helpers.subprocess_helper import subprocess_helper
+from helpers.logging_helper import logging_helper
+from helpers.subprocess_helper import subprocess_helper
 
-from .manager import manager
-from .config import config
+from manager import manager
+from config import config
 
 import os
 

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>build</key>
+	<string>4L13</string>
+	<key>inherits</key>
+	<string>4K78</string>
+	<key>projects</key>
+	<dict>	
+		
+		<key>IOSerialFamily</key>
+		<dict>
+			<key>version</key>
+			<string>7</string>
+		</dict>
+		
+		<key>Libc</key>
+		<dict>
+			<key>version</key>
+			<string>167</string>
+		</dict>
+		
+		<key>Libsystem</key>
+		<dict>
+			<key>version</key>
+			<string>50</string>
+		</dict>
+		
+		<key>OpenSSH</key>
+		<dict>
+			<key>version</key>
+			<string>7.1</string>
+		</dict>
+		
+		<key>xnu</key>
+		<dict>
+			<key>version</key>
+			<string>124.1</string>
+		</dict>
+		
+        </dict>
+</dict>
+</plist>

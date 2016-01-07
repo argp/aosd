@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>build</key>
+	<string>5A331</string>
+	<key>inherits</key>
+	<string>5A308</string>
+	<key>projects</key>
+	<dict>	
+		
+		<key>cctools</key>
+		<dict>
+			<key>version</key>
+			<string>667.8.0</string>
+		</dict>
+		
+		<key>gcc</key>
+		<dict>
+			<key>version</key>
+			<string>5484</string>
+		</dict>
+		
+		<key>gdb</key>
+		<dict>
+			<key>version</key>
+			<string>961</string>
+		</dict>
+		
+		<key>gnumake</key>
+		<dict>
+			<key>version</key>
+			<string>119</string>
+		</dict>
+		
+        </dict>
+</dict>
+</plist>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>build</key>
+	<string>4F250</string>
+	<key>inherits</key>
+	<string>4E109</string>
+	<key>projects</key>
+	<dict>	
+		
+		<key>CoreOSMakefiles</key>
+		<dict>
+			<key>version</key>
+			<string>75</string>
+		</dict>
+		
+		<key>Git</key>
+		<dict>
+			<key>version</key>
+			<string>31.1</string>
+		</dict>
+		
+		<key>bison</key>
+		<dict>
+			<key>version</key>
+			<string>14</string>
+		</dict>
+		
+		<key>bootstrap_cmds</key>
+		<dict>
+			<key>version</key>
+			<string>84</string>
+		</dict>
+		
+		<key>cctools</key>
+		<dict>
+			<key>version</key>
+			<string>829</string>
+		</dict>
+		
+		<key>clang</key>
+		<dict>
+			<key>version</key>
+			<string>421.0.57</string>
+		</dict>
+		
+		<key>cvs</key>
+		<dict>
+			<key>version</key>
+			<string>45</string>
+		</dict>
+		
+		<key>developer_cmds</key>
+		<dict>
+			<key>version</key>
+			<string>60</string>
+		</dict>
+		
+		<key>gcc_select</key>
+		<dict>
+			<key>version</key>
+			<string>115</string>
+		</dict>
+		
+		<key>gdb</key>
+		<dict>
+			<key>version</key>
+			<string>1820</string>
+		</dict>
+		
+		<key>gm4</key>
+		<dict>
+			<key>version</key>
+			<string>15</string>
+		</dict>
+		
+		<key>gnumake</key>
+		<dict>
+			<key>version</key>
+			<string>130</string>
+		</dict>
+		
+		<key>gperf</key>
+		<dict>
+			<key>version</key>
+			<string>9</string>
+		</dict>
+		
+		<key>headerdoc</key>
+		<dict>
+			<key>version</key>
+			<string>8.9.13</string>
+		</dict>
+		
+		<key>ld64</key>
+		<dict>
+			<key>version</key>
+			<string>133.3</string>
+		</dict>
+		
+		<key>lldb</key>
+		<dict>
+			<key>version</key>
+			<string>159</string>
+		</dict>
+		
+		<key>llvmgcc42</key>
+		<dict>
+			<key>version</key>
+			<string>2336.11</string>
+		</dict>
+		
+		<key>pb_makefiles</key>
+		<dict>
+			<key>version</key>
+			<string>1005</string>
+		</dict>
+		
+		<key>rcs</key>
+		<dict>
+			<key>version</key>
+			<string>16</string>
+		</dict>
+		
+		<key>subversion</key>
+		<dict>
+			<key>version</key>
+			<string>52</string>
+		</dict>
+		
+        </dict>
+</dict>
+</plist>

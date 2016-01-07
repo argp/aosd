@@ -1,0 +1,1004 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>build</key>
+	<string>5Q45</string>
+	<key>inherits</key>
+	<string>5P48</string>
+	<key>projects</key>
+	<dict>	
+		
+		<key>AppleADBButtons</key>
+		<dict>
+			<key>version</key>
+			<string>2.2</string>
+		</dict>
+		
+		<key>AppleADBDisplay</key>
+		<dict>
+			<key>version</key>
+			<string>1.1</string>
+		</dict>
+		
+		<key>AppleADBKeyboard</key>
+		<dict>
+			<key>version</key>
+			<string>2.3.2d1</string>
+		</dict>
+		
+		<key>AppleADBMouse</key>
+		<dict>
+			<key>version</key>
+			<string>2.3</string>
+		</dict>
+		
+		<key>AppleBMacEthernet</key>
+		<dict>
+			<key>version</key>
+			<string>1.3</string>
+		</dict>
+		
+		<key>AppleCore99NVRAM</key>
+		<dict>
+			<key>version</key>
+			<string>1.1</string>
+		</dict>
+		
+		<key>AppleCore99PE</key>
+		<dict>
+			<key>version</key>
+			<string>1_1d7</string>
+		</dict>
+		
+		<key>AppleGMACEthernet</key>
+		<dict>
+			<key>version</key>
+			<string>1.23.1</string>
+		</dict>
+		
+		<key>AppleGracklePCI</key>
+		<dict>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		
+		<key>AppleHeathrow</key>
+		<dict>
+			<key>version</key>
+			<string>1.1d1</string>
+		</dict>
+		
+		<key>AppleI2C</key>
+		<dict>
+			<key>version</key>
+			<string>3</string>
+		</dict>
+		
+		<key>AppleI386PCI</key>
+		<dict>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		
+		<key>AppleIntel8255x</key>
+		<dict>
+			<key>version</key>
+			<string>2</string>
+		</dict>
+		
+		<key>AppleKeyLargo</key>
+		<dict>
+			<key>version</key>
+			<string>1.1.5d1</string>
+		</dict>
+		
+		<key>AppleMESH</key>
+		<dict>
+			<key>version</key>
+			<string>1.6</string>
+		</dict>
+		
+		<key>AppleMPIC</key>
+		<dict>
+			<key>version</key>
+			<string>1.1</string>
+		</dict>
+		
+		<key>AppleMacRISC2PE</key>
+		<dict>
+			<key>version</key>
+			<string>1_1d7</string>
+		</dict>
+		
+		<key>AppleMacRiscPCI</key>
+		<dict>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		
+		<key>AppleMediaBay</key>
+		<dict>
+			<key>version</key>
+			<string>1.0.0d6.A</string>
+		</dict>
+		
+		<key>AppleOnboardAudio</key>
+		<dict>
+			<key>version</key>
+			<string>172.3</string>
+		</dict>
+		
+		<key>ApplePS2Controller</key>
+		<dict>
+			<key>version</key>
+			<string>2</string>
+		</dict>
+		
+		<key>ApplePS2Keyboard</key>
+		<dict>
+			<key>version</key>
+			<string>3</string>
+		</dict>
+		
+		<key>ApplePS2Mouse</key>
+		<dict>
+			<key>version</key>
+			<string>3</string>
+		</dict>
+		
+		<key>AppleSym8xx</key>
+		<dict>
+			<key>version</key>
+			<string>1.0.1f1.2</string>
+		</dict>
+		
+		<key>AppleTalk</key>
+		<dict>
+			<key>version</key>
+			<string>66.3</string>
+		</dict>
+		
+		<key>AppleUSBProKeyboard</key>
+		<dict>
+			<key>version</key>
+			<string>1.9.5</string>
+		</dict>
+		
+		<key>AppleVIA</key>
+		<dict>
+			<key>version</key>
+			<string>1.1</string>
+		</dict>
+		
+		<key>BootX</key>
+		<dict>
+			<key>version</key>
+			<string>36</string>
+		</dict>
+		
+		<key>CMD646ATA</key>
+		<dict>
+			<key>version</key>
+			<string>1.0.6f1</string>
+		</dict>
+		
+		<key>Chess</key>
+		<dict>
+			<key>version</key>
+			<string>48</string>
+		</dict>
+		
+		<key>CoreOSMakefiles</key>
+		<dict>
+			<key>version</key>
+			<string>18</string>
+		</dict>
+		
+		<key>Csu</key>
+		<dict>
+			<key>version</key>
+			<string>37</string>
+		</dict>
+		
+		<key>DiskArbitration</key>
+		<dict>
+			<key>version</key>
+			<string>48.1</string>
+		</dict>
+		
+		<key>IOATABlockStorage</key>
+		<dict>
+			<key>version</key>
+			<string>25.2</string>
+		</dict>
+		
+		<key>IOATAFamily</key>
+		<dict>
+			<key>version</key>
+			<string>1.4.9f1</string>
+		</dict>
+		
+		<key>IOATAPIProtocolTransport</key>
+		<dict>
+			<key>version</key>
+			<string>30</string>
+		</dict>
+		
+		<key>IOAudioFamily</key>
+		<dict>
+			<key>version</key>
+			<string>1.1fc9</string>
+		</dict>
+		
+		<key>IOCDStorageFamily</key>
+		<dict>
+			<key>version</key>
+			<string>12.1</string>
+		</dict>
+		
+		<key>IODVDStorageFamily</key>
+		<dict>
+			<key>version</key>
+			<string>4</string>
+		</dict>
+		
+		<key>IOFWDVComponents</key>
+		<dict>
+			<key>version</key>
+			<string>26</string>
+		</dict>
+		
+		<key>IOFireWireFamily</key>
+		<dict>
+			<key>version</key>
+			<string>43</string>
+		</dict>
+		
+		<key>IOFireWireSBP2</key>
+		<dict>
+			<key>version</key>
+			<string>24</string>
+		</dict>
+		
+		<key>IOFireWireSerialBusProtocolTransport</key>
+		<dict>
+			<key>version</key>
+			<string>30</string>
+		</dict>
+		
+		<key>IOGraphics</key>
+		<dict>
+			<key>version</key>
+			<string>16.5.2</string>
+		</dict>
+		
+		<key>IOHIDFamily</key>
+		<dict>
+			<key>version</key>
+			<string>8.3</string>
+		</dict>
+		
+		<key>IOKitTools</key>
+		<dict>
+			<key>version</key>
+			<string>21</string>
+		</dict>
+		
+		<key>IOKitUser</key>
+		<dict>
+			<key>version</key>
+			<string>67.2.1</string>
+		</dict>
+		
+		<key>IONetworkingFamily</key>
+		<dict>
+			<key>version</key>
+			<string>4</string>
+		</dict>
+		
+		<key>IOPCCardFamily</key>
+		<dict>
+			<key>version</key>
+			<string>21</string>
+		</dict>
+		
+		<key>IOPCIFamily</key>
+		<dict>
+			<key>version</key>
+			<string>3</string>
+		</dict>
+		
+		<key>IOSCSIArchitectureModelFamily</key>
+		<dict>
+			<key>version</key>
+			<string>1.1_46</string>
+		</dict>
+		
+		<key>IOSerialFamily</key>
+		<dict>
+			<key>version</key>
+			<string>14</string>
+		</dict>
+		
+		<key>IOStorageFamily</key>
+		<dict>
+			<key>version</key>
+			<string>10.3</string>
+		</dict>
+		
+		<key>IOUSBMassStorageClass</key>
+		<dict>
+			<key>version</key>
+			<string>1.1.2_1</string>
+		</dict>
+		
+		<key>IPFirewall</key>
+		<dict>
+			<key>version</key>
+			<string>8</string>
+		</dict>
+		
+		<key>KeyLargoATA</key>
+		<dict>
+			<key>version</key>
+			<string>1.0.8f3</string>
+		</dict>
+		
+		<key>Libc</key>
+		<dict>
+			<key>version</key>
+			<string>186</string>
+		</dict>
+		
+		<key>Libcompat</key>
+		<dict>
+			<key>version</key>
+			<string>14.1</string>
+		</dict>
+		
+		<key>Libcurses</key>
+		<dict>
+			<key>version</key>
+			<string>24</string>
+		</dict>
+		
+		<key>Libinfo</key>
+		<dict>
+			<key>version</key>
+			<string>89.1</string>
+		</dict>
+		
+		<key>Libkvm</key>
+		<dict>
+			<key>version</key>
+			<string>15.1</string>
+		</dict>
+		
+		<key>Librpcsvc</key>
+		<dict>
+			<key>version</key>
+			<string>11</string>
+		</dict>
+		
+		<key>Libstreams</key>
+		<dict>
+			<key>version</key>
+			<string>23</string>
+		</dict>
+		
+		<key>Libsystem</key>
+		<dict>
+			<key>version</key>
+			<string>55</string>
+		</dict>
+		
+		<key>Liby</key>
+		<dict>
+			<key>version</key>
+			<string>10</string>
+		</dict>
+		
+		<key>NKEMgr</key>
+		<dict>
+			<key>version</key>
+			<string>5.3</string>
+		</dict>
+		
+		<key>OpenSSH</key>
+		<dict>
+			<key>version</key>
+			<string>13</string>
+		</dict>
+		
+		<key>OpenSSL</key>
+		<dict>
+			<key>version</key>
+			<string>7.1</string>
+		</dict>
+		
+		<key>Security</key>
+		<dict>
+			<key>version</key>
+			<string>30.1</string>
+		</dict>
+		
+		<key>SharedIP</key>
+		<dict>
+			<key>version</key>
+			<string>27</string>
+		</dict>
+		
+		<key>Startup</key>
+		<dict>
+			<key>version</key>
+			<string>78</string>
+		</dict>
+		
+		<key>SystemKEXT</key>
+		<dict>
+			<key>version</key>
+			<string>13</string>
+		</dict>
+		
+		<key>UserNotification</key>
+		<dict>
+			<key>version</key>
+			<string>11</string>
+		</dict>
+		
+		<key>adv_cmds</key>
+		<dict>
+			<key>version</key>
+			<string>36</string>
+		</dict>
+		
+		<key>apache</key>
+		<dict>
+			<key>version</key>
+			<string>649</string>
+		</dict>
+		
+		<key>apache_mod_dav</key>
+		<dict>
+			<key>version</key>
+			<string>7</string>
+		</dict>
+		
+		<key>apache_mod_hfs_apple</key>
+		<dict>
+			<key>version</key>
+			<string>3</string>
+		</dict>
+		
+		<key>apache_mod_php</key>
+		<dict>
+			<key>version</key>
+			<string>6.2</string>
+		</dict>
+		
+		<key>apache_mod_ssl</key>
+		<dict>
+			<key>version</key>
+			<string>7</string>
+		</dict>
+		
+		<key>architecture</key>
+		<dict>
+			<key>version</key>
+			<string>229</string>
+		</dict>
+		
+		<key>at_cmds</key>
+		<dict>
+			<key>version</key>
+			<string>42</string>
+		</dict>
+		
+		<key>autoconf</key>
+		<dict>
+			<key>version</key>
+			<string>8</string>
+		</dict>
+		
+		<key>automount</key>
+		<dict>
+			<key>version</key>
+			<string>23</string>
+		</dict>
+		
+		<key>awk</key>
+		<dict>
+			<key>version</key>
+			<string>1.2</string>
+		</dict>
+		
+		<key>basic_cmds</key>
+		<dict>
+			<key>version</key>
+			<string>27</string>
+		</dict>
+		
+		<key>bc</key>
+		<dict>
+			<key>version</key>
+			<string>8</string>
+		</dict>
+		
+		<key>bind</key>
+		<dict>
+			<key>version</key>
+			<string>6</string>
+		</dict>
+		
+		<key>binutils</key>
+		<dict>
+			<key>version</key>
+			<string>23.1</string>
+		</dict>
+		
+		<key>bison</key>
+		<dict>
+			<key>version</key>
+			<string>5.1</string>
+		</dict>
+		
+		<key>bless</key>
+		<dict>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		
+		<key>boot</key>
+		<dict>
+			<key>version</key>
+			<string>83.2</string>
+		</dict>
+		
+		<key>bootp</key>
+		<dict>
+			<key>version</key>
+			<string>72</string>
+		</dict>
+		
+		<key>bootstrap_cmds</key>
+		<dict>
+			<key>version</key>
+			<string>26</string>
+		</dict>
+		
+		<key>bsdmake</key>
+		<dict>
+			<key>version</key>
+			<string>8</string>
+		</dict>
+		
+		<key>cctools</key>
+		<dict>
+			<key>version</key>
+			<string>384</string>
+		</dict>
+		
+		<key>configd</key>
+		<dict>
+			<key>version</key>
+			<string>42</string>
+		</dict>
+		
+		<key>configd_plugins</key>
+		<dict>
+			<key>version</key>
+			<string>40</string>
+		</dict>
+		
+		<key>cron</key>
+		<dict>
+			<key>version</key>
+			<string>5</string>
+		</dict>
+		
+		<key>cvs</key>
+		<dict>
+			<key>version</key>
+			<string>19</string>
+		</dict>
+		
+		<key>developer_cmds</key>
+		<dict>
+			<key>version</key>
+			<string>16</string>
+		</dict>
+		
+		<key>diffstat</key>
+		<dict>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		
+		<key>diskdev_cmds</key>
+		<dict>
+			<key>version</key>
+			<string>165</string>
+		</dict>
+		
+		<key>doc_cmds</key>
+		<dict>
+			<key>version</key>
+			<string>22</string>
+		</dict>
+		
+		<key>drvAppleCMD646Root</key>
+		<dict>
+			<key>version</key>
+			<string>1.0.2f2</string>
+		</dict>
+		
+		<key>emacs</key>
+		<dict>
+			<key>version</key>
+			<string>41</string>
+		</dict>
+		
+		<key>enscript</key>
+		<dict>
+			<key>version</key>
+			<string>7</string>
+		</dict>
+		
+		<key>extenTools</key>
+		<dict>
+			<key>version</key>
+			<string>17.3</string>
+		</dict>
+		
+		<key>fetchmail</key>
+		<dict>
+			<key>version</key>
+			<string>4.1</string>
+		</dict>
+		
+		<key>file_cmds</key>
+		<dict>
+			<key>version</key>
+			<string>46</string>
+		</dict>
+		
+		<key>files</key>
+		<dict>
+			<key>version</key>
+			<string>371</string>
+		</dict>
+		
+		<key>flex</key>
+		<dict>
+			<key>version</key>
+			<string>7</string>
+		</dict>
+		
+		<key>gcc</key>
+		<dict>
+			<key>version</key>
+			<string>932.1</string>
+		</dict>
+		
+		<key>gdb</key>
+		<dict>
+			<key>version</key>
+			<string>200</string>
+		</dict>
+		
+		<key>gm4</key>
+		<dict>
+			<key>version</key>
+			<string>6</string>
+		</dict>
+		
+		<key>gnudiff</key>
+		<dict>
+			<key>version</key>
+			<string>10</string>
+		</dict>
+		
+		<key>gnumake</key>
+		<dict>
+			<key>version</key>
+			<string>104</string>
+		</dict>
+		
+		<key>gnutar</key>
+		<dict>
+			<key>version</key>
+			<string>410.1</string>
+		</dict>
+		
+		<key>gnuzip</key>
+		<dict>
+			<key>version</key>
+			<string>11</string>
+		</dict>
+		
+		<key>grep</key>
+		<dict>
+			<key>version</key>
+			<string>6.1</string>
+		</dict>
+		
+		<key>groff</key>
+		<dict>
+			<key>version</key>
+			<string>10</string>
+		</dict>
+		
+		<key>headerdoc</key>
+		<dict>
+			<key>version</key>
+			<string>5.1</string>
+		</dict>
+		
+		<key>hfs</key>
+		<dict>
+			<key>version</key>
+			<string>110</string>
+		</dict>
+		
+		<key>isoutil</key>
+		<dict>
+			<key>version</key>
+			<string>19</string>
+		</dict>
+		
+		<key>jam</key>
+		<dict>
+			<key>version</key>
+			<string>61</string>
+		</dict>
+		
+		<key>keymaps</key>
+		<dict>
+			<key>version</key>
+			<string>31</string>
+		</dict>
+		
+		<key>less</key>
+		<dict>
+			<key>version</key>
+			<string>3</string>
+		</dict>
+		
+		<key>libpcap</key>
+		<dict>
+			<key>version</key>
+			<string>2.1</string>
+		</dict>
+		
+		<key>libtelnet</key>
+		<dict>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		
+		<key>m4</key>
+		<dict>
+			<key>version</key>
+			<string>4</string>
+		</dict>
+		
+		<key>mail_cmds</key>
+		<dict>
+			<key>version</key>
+			<string>10</string>
+		</dict>
+		
+		<key>man</key>
+		<dict>
+			<key>version</key>
+			<string>151</string>
+		</dict>
+		
+		<key>misc_cmds</key>
+		<dict>
+			<key>version</key>
+			<string>6</string>
+		</dict>
+		
+		<key>ncftp</key>
+		<dict>
+			<key>version</key>
+			<string>6</string>
+		</dict>
+		
+		<key>netinfo</key>
+		<dict>
+			<key>version</key>
+			<string>233.2</string>
+		</dict>
+		
+		<key>network_cmds</key>
+		<dict>
+			<key>version</key>
+			<string>85</string>
+		</dict>
+		
+		<key>ntp</key>
+		<dict>
+			<key>version</key>
+			<string>13</string>
+		</dict>
+		
+		<key>objc4</key>
+		<dict>
+			<key>version</key>
+			<string>217</string>
+		</dict>
+		
+		<key>patch_cmds</key>
+		<dict>
+			<key>version</key>
+			<string>7</string>
+		</dict>
+		
+		<key>pb_makefiles</key>
+		<dict>
+			<key>version</key>
+			<string>114.4</string>
+		</dict>
+		
+		<key>pbx_jamfiles</key>
+		<dict>
+			<key>version</key>
+			<string>71</string>
+		</dict>
+		
+		<key>perl</key>
+		<dict>
+			<key>version</key>
+			<string>17.1</string>
+		</dict>
+		
+		<key>portmap</key>
+		<dict>
+			<key>version</key>
+			<string>3</string>
+		</dict>
+		
+		<key>ppp</key>
+		<dict>
+			<key>version</key>
+			<string>57.3</string>
+		</dict>
+		
+		<key>procmail</key>
+		<dict>
+			<key>version</key>
+			<string>2</string>
+		</dict>
+		
+		<key>project_makefiles</key>
+		<dict>
+			<key>version</key>
+			<string>124.4</string>
+		</dict>
+		
+		<key>rcs</key>
+		<dict>
+			<key>version</key>
+			<string>10</string>
+		</dict>
+		
+		<key>rsync</key>
+		<dict>
+			<key>version</key>
+			<string>5.1</string>
+		</dict>
+		
+		<key>sendmail</key>
+		<dict>
+			<key>version</key>
+			<string>26.2</string>
+		</dict>
+		
+		<key>shell_cmds</key>
+		<dict>
+			<key>version</key>
+			<string>18</string>
+		</dict>
+		
+		<key>sudo</key>
+		<dict>
+			<key>version</key>
+			<string>4</string>
+		</dict>
+		
+		<key>system_cmds</key>
+		<dict>
+			<key>version</key>
+			<string>196</string>
+		</dict>
+		
+		<key>tcl</key>
+		<dict>
+			<key>version</key>
+			<string>3.1</string>
+		</dict>
+		
+		<key>tcp_wrappers</key>
+		<dict>
+			<key>version</key>
+			<string>4</string>
+		</dict>
+		
+		<key>tcpdump</key>
+		<dict>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		
+		<key>tcsh</key>
+		<dict>
+			<key>version</key>
+			<string>27.1</string>
+		</dict>
+		
+		<key>texi2html</key>
+		<dict>
+			<key>version</key>
+			<string>1.3</string>
+		</dict>
+		
+		<key>text_cmds</key>
+		<dict>
+			<key>version</key>
+			<string>9</string>
+		</dict>
+		
+		<key>usertemplate</key>
+		<dict>
+			<key>version</key>
+			<string>8</string>
+		</dict>
+		
+		<key>usrtemplate</key>
+		<dict>
+			<key>version</key>
+			<string>10</string>
+		</dict>
+		
+		<key>vi</key>
+		<dict>
+			<key>version</key>
+			<string>5.1</string>
+		</dict>
+		
+		<key>volfs</key>
+		<dict>
+			<key>version</key>
+			<string>23</string>
+		</dict>
+		
+		<key>xnu</key>
+		<dict>
+			<key>version</key>
+			<string>201.19</string>
+		</dict>
+		
+		<key>yacc</key>
+		<dict>
+			<key>version</key>
+			<string>4</string>
+		</dict>
+		
+		<key>zlib</key>
+		<dict>
+			<key>version</key>
+			<string>5</string>
+		</dict>
+		
+		<key>zsh</key>
+		<dict>
+			<key>version</key>
+			<string>28</string>
+		</dict>
+		
+        </dict>
+</dict>
+</plist>

@@ -1,11 +1,13 @@
 """
 imports
 """
-from .RootCmd import RootCmd
-from ..downloader.update import update
-
-from ..helpers.logging_helper import logging_helper
-from ..helpers.argument_helper import argument_helper
+import sys
+sys.path.append('.')
+sys.path.append('..')
+from RootCmd import RootCmd
+from downloader.update import update
+from helpers.logging_helper import logging_helper
+from helpers.argument_helper import argument_helper
 
 class CmdUpdate(RootCmd):
     """

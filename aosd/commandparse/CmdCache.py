@@ -1,11 +1,15 @@
 """
 imports
 """
-from .RootCmd import RootCmd
-from ..downloader.cacher import cacher
+import sys
+sys.path.append('.')
+sys.path.append('..')
 
-from ..helpers.logging_helper import logging_helper
-from ..helpers.argument_helper import argument_helper
+from RootCmd import RootCmd
+from downloader.cacher import cacher
+
+from helpers.logging_helper import logging_helper
+from helpers.argument_helper import argument_helper
 
 
 class CmdCache(RootCmd):

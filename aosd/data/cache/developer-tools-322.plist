@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>build</key>
+	<string>10M2148</string>
+	<key>inherits</key>
+	<string>10M2003</string>
+	<key>projects</key>
+	<dict>	
+		
+		<key>CoreOSMakefiles</key>
+		<dict>
+			<key>version</key>
+			<string>61</string>
+		</dict>
+		
+		<key>Csu</key>
+		<dict>
+			<key>version</key>
+			<string>79</string>
+		</dict>
+		
+		<key>WebKit</key>
+		<dict>
+			<key>version</key>
+			<string>6531.9</string>
+		</dict>
+		
+		<key>autoconf</key>
+		<dict>
+			<key>version</key>
+			<string>15</string>
+		</dict>
+		
+		<key>bison</key>
+		<dict>
+			<key>version</key>
+			<string>13</string>
+		</dict>
+		
+		<key>bootstrap_cmds</key>
+		<dict>
+			<key>version</key>
+			<string>72</string>
+		</dict>
+		
+		<key>bsdmake</key>
+		<dict>
+			<key>version</key>
+			<string>24</string>
+		</dict>
+		
+		<key>cctools</key>
+		<dict>
+			<key>version</key>
+			<string>773</string>
+		</dict>
+		
+		<key>cvs</key>
+		<dict>
+			<key>version</key>
+			<string>42</string>
+		</dict>
+		
+		<key>cvs_wrapped</key>
+		<dict>
+			<key>version</key>
+			<string>15</string>
+		</dict>
+		
+		<key>cxxfilt</key>
+		<dict>
+			<key>version</key>
+			<string>9</string>
+		</dict>
+		
+		<key>developer_cmds</key>
+		<dict>
+			<key>version</key>
+			<string>52.1</string>
+		</dict>
+		
+		<key>distcc</key>
+		<dict>
+			<key>version</key>
+			<string>1648</string>
+		</dict>
+		
+		<key>files</key>
+		<dict>
+			<key>version</key>
+			<string>553</string>
+		</dict>
+		
+		<key>flex</key>
+		<dict>
+			<key>version</key>
+			<string>24.1</string>
+		</dict>
+		
+		<key>gcc</key>
+		<dict>
+			<key>version</key>
+			<string>5659</string>
+		</dict>
+		
+		<key>gcc_select</key>
+		<dict>
+			<key>version</key>
+			<string>70</string>
+		</dict>
+		
+		<key>gdb</key>
+		<dict>
+			<key>version</key>
+			<string>1461.2</string>
+		</dict>
+		
+		<key>glibtool</key>
+		<dict>
+			<key>version</key>
+			<string>14</string>
+		</dict>
+		
+		<key>gm4</key>
+		<dict>
+			<key>version</key>
+			<string>13</string>
+		</dict>
+		
+		<key>gnumake</key>
+		<dict>
+			<key>version</key>
+			<string>126.2</string>
+		</dict>
+		
+		<key>gnutar</key>
+		<dict>
+			<key>version</key>
+			<string>450</string>
+		</dict>
+		
+		<key>gperf</key>
+		<dict>
+			<key>version</key>
+			<string>6</string>
+		</dict>
+		
+		<key>headerdoc</key>
+		<dict>
+			<key>version</key>
+			<string>8.7.15</string>
+		</dict>
+		
+		<key>ld64</key>
+		<dict>
+			<key>version</key>
+			<string>97.2</string>
+		</dict>
+		
+		<key>libstdcxx</key>
+		<dict>
+			<key>version</key>
+			<string>39</string>
+		</dict>
+		
+		<key>nasm</key>
+		<dict>
+			<key>version</key>
+			<string>13</string>
+		</dict>
+		
+		<key>pb_makefiles</key>
+		<dict>
+			<key>version</key>
+			<string>1001</string>
+		</dict>
+		
+		<key>rcs</key>
+		<dict>
+			<key>version</key>
+			<string>14</string>
+		</dict>
+		
+		<key>wxWidgets</key>
+		<dict>
+			<key>version</key>
+			<string>13</string>
+		</dict>
+		
+        </dict>
+</dict>
+</plist>

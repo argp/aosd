@@ -1,6 +1,7 @@
-from ..helpers.logging_helper import logging_helper
+import sys
+sys.path.append('.')
 
-from .utilities import utilities
+from utilities import utilities
 
 import os
 import plistlib

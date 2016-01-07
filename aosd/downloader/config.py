@@ -1,4 +1,8 @@
-from ..helpers.logging_helper import logging_helper
+import sys
+sys.path.append('.')
+sys.path.append('..')
+
+from helpers.logging_helper import logging_helper
 
 try:
     import urllib.parse as comp_urlparse # For Python 3.0 and later
@@ -112,7 +116,9 @@ class config(object):
             'core_url': 'https://raw.githubusercontent.com/samdmarshall/AOS-Downloader/master/aosd/data/',
             'first_run': True,
             'requests_via_https': True,
-            'download_directory': '~/Downloads',
+            'download_directory': '/home/argp/archive/osx/kernel',
             'verbose_logging': False,
         }
         cls.write(default_values)
+
+# EOF

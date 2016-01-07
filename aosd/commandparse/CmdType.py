@@ -1,11 +1,15 @@
 """
 imports
 """
-from .RootCmd import RootCmd
-from ..downloader.releases import releases
+import sys
+sys.path.append('.')
+sys.path.append('..')
 
-from ..helpers.logging_helper import logging_helper
-from ..helpers.argument_helper import argument_helper
+from RootCmd import RootCmd
+from downloader.releases import releases
+
+from helpers.logging_helper import logging_helper
+from helpers.argument_helper import argument_helper
 
 class CmdType(RootCmd):
 

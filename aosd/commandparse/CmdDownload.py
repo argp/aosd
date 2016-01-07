@@ -1,11 +1,14 @@
 """
 imports
 """
-from .RootCmd import RootCmd
-from ..downloader.manager import manager
+import sys
+sys.path.append('.')
+sys.path.append('..')
 
-from ..helpers.logging_helper import logging_helper
-from ..helpers.argument_helper import argument_helper
+from RootCmd import RootCmd
+from downloader.manager import manager
+from helpers.logging_helper import logging_helper
+from helpers.argument_helper import argument_helper
 
 class CmdDownload(RootCmd):
     """
@@ -37,7 +40,8 @@ class CmdDownload(RootCmd):
         if has_type == True and has_package == True and has_build == True:
             release_type = args['type']
             package_name = args['package']
-            manager.DownloadPackageTarball(release_type, package_name, build_number)
+            release_version = args['version']
+            manager.DownloadPackageTarball(release_type, package_name, build_number, release_version)
         else:
             if has_type == False:
                 logging_helper.getLogger().error('Cannot download package without a release type set. Use the "type" command.')

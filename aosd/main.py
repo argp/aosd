@@ -1,10 +1,12 @@
 import sys
 import argparse
 
-from .commandparse import InteractiveInput
-from .downloader.config import config
-from .downloader.manager import manager
-from .helpers.logging_helper import logging_helper
+sys.path.append('.')
+
+from commandparse import InteractiveInput
+from downloader.config import config
+from downloader.manager import manager
+from helpers.logging_helper import logging_helper
 
 kFLAGNAME_build = 'build'
 kFLAGNAME_diff = 'diff'
@@ -15,6 +17,7 @@ kFLAGNAME_type = 'type'
 kFLAGNAME_buildcache = 'buildcache'
 kFLAGNAME_findhash = 'findhash'
 kFLAGNAME_version = 'version'
+kFLAGNAME_release = 'release'
 
 def CheckPassedArgCount(args):
     kDefaultValues = {
@@ -24,6 +27,7 @@ def CheckPassedArgCount(args):
         kFLAGNAME_package: None,
         kFLAGNAME_resetcache: False,
         kFLAGNAME_type: None,
+        kFLAGNAME_release: None,
         kFLAGNAME_buildcache: False,
         kFLAGNAME_findhash: False,
         kFLAGNAME_version: False,
@@ -49,11 +53,16 @@ def ParseFlags(args_dict):
     
         release_type = args_dict.get(kFLAGNAME_type, None)
         if release_type != None:
-            console_commands.append('type '+release_type)
-    
+            console_commands.append('type ' + release_type)
+
         package_name = args_dict.get(kFLAGNAME_package, None)
         if package_name != None:
-            console_commands.append('package '+package_name)
+            console_commands.append('package ' + package_name)
+
+        release_version = args_dict.get(kFLAGNAME_release, None)
+        if release_version != None:
+            console_commands.append('version ' + release_version)
+            console_commands.append('download')
     
         list_action = args_dict.get(kFLAGNAME_list, False)
         if list_action == True:
@@ -83,6 +92,14 @@ def main():
         help='specify the release type',
         required=False,
         action='store'
+    )
+
+    parser.add_argument(
+        '-r',
+        '--' + kFLAGNAME_release,
+        help = 'specify the OS X release number',
+        required = False,
+        action = 'store'
     )
 
     parser.add_argument(
@@ -119,11 +136,11 @@ def main():
     )
 
     parser.add_argument(
-        '-r',
-        '--'+kFLAGNAME_resetcache,
-        help='removes currently cached package plist files',
-        required=False,
-        action='store_true'
+        '-s',
+        '--' + kFLAGNAME_resetcache,
+        help = 'removes currently cached package plist files',
+        required = False,
+        action = 'store_true'
     )
 
     parser.add_argument(
