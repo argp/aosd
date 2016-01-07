@@ -9,7 +9,7 @@ appropriate for what you want to do. Please use the
 instead.
 
 If, despite the warning, you want to use it, be sure to change
-`download_directory` in `aosd/downloader/config.py` and
+`download_directory` in `aosd/downloader/config.py` and in
 `aosd/data/aosd.plist`.
 
 Then you can do something like:
