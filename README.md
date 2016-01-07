@@ -23,3 +23,5 @@ $ python aosd/main.py -t mac -p dyld -r 10.11.2
 ====================
 ```
 
+All bugs are mine, if you use this fork don't bother samdmarshall; contact
+me instead.
