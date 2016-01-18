@@ -18,6 +18,7 @@ kFLAGNAME_buildcache = 'buildcache'
 kFLAGNAME_findhash = 'findhash'
 kFLAGNAME_version = 'version'
 kFLAGNAME_release = 'release'
+kFLAGNAME_destdir = 'destdir'
 
 def CheckPassedArgCount(args):
     kDefaultValues = {
@@ -28,6 +29,7 @@ def CheckPassedArgCount(args):
         kFLAGNAME_resetcache: False,
         kFLAGNAME_type: None,
         kFLAGNAME_release: None,
+        kFLAGNAME_destdir: None,
         kFLAGNAME_buildcache: False,
         kFLAGNAME_findhash: False,
         kFLAGNAME_version: False,
@@ -62,6 +64,11 @@ def ParseFlags(args_dict):
         release_version = args_dict.get(kFLAGNAME_release, None)
         if release_version != None:
             console_commands.append('version ' + release_version)
+
+            destdir_path = args_dict.get(kFLAGNAME_destdir, None)
+            if destdir_path != None:
+                console_commands.append('config set download_directory ' + destdir_path)
+            
             console_commands.append('download')
     
         list_action = args_dict.get(kFLAGNAME_list, False)
@@ -98,6 +105,14 @@ def main():
         '-r',
         '--' + kFLAGNAME_release,
         help = 'specify the OS X release number',
+        required = False,
+        action = 'store'
+    )
+
+    parser.add_argument(
+        '-o',
+        '--' + kFLAGNAME_destdir,
+        help = 'specify the destination directory',
         required = False,
         action = 'store'
     )
@@ -171,7 +186,8 @@ def main():
     
     flag_commands = ParseFlags(args_dict)
     
-    if config.getFirstRun() == True and 'cache setup' not in flag_commands and 'info' not in flag_commands:
+    if config.getFirstRun() == True and 'cache setup' not in flag_commands \
+            and 'info' not in flag_commands:
         logging_helper.getLogger().info('This appears to be the first time this has been run, you should run the "cache setup" command or pass "--'+kFLAGNAME_buildcache+'" on the command line. This command will download several megabytes of plist files from "'+manager.CreateAppleURL()+'" so that packages can be looked up without querying the server.\n')
     
     aosd_shell = InteractiveInput()
@@ -187,3 +203,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# EOF

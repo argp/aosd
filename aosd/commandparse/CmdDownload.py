@@ -64,3 +64,5 @@ class CmdDownload(RootCmd):
             ret_val = 'Fatal error, cannot download!'
             logging_helper.getLogger().error(ret_val)
         return ret_val
+
+# EOF

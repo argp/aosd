@@ -82,12 +82,17 @@ class manager(object):
 
     @classmethod
     def DownloadPackageTarball(cls, release_type, package_name, build_number, \
-            release_version = '', check_hash = True):
+            release_version = '', dest_dir = '', check_hash = True):
         
         downloaded_directory_path = ''
         tarball_address = cls.CreateTarballURL(release_type, package_name, build_number)
         package_file_name = os.path.basename(tarball_address)
-        output_directory = os.path.expanduser(config.getDownloadDir())
+
+        if dest_dir != '':
+            output_directory = dest_dir
+            print("[xxx] output_directory = %s" % (output_directory))
+        else:
+            output_directory = os.path.expanduser(config.getDownloadDir())
 
         if release_version != '':
             output_directory = output_directory + '/' + release_version
