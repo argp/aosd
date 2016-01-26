@@ -11,7 +11,7 @@ instead.
 If, despite the warning, you want to use it, here's the help message:
 
 ```
-$ python main.py -h
+$ python aosd/main.py -h
 usage: main.py [-h] [-t TYPE] [-r RELEASE] [-o DESTDIR] [-l] [-p PACKAGE]
                [-b BUILD] [-d DIFF DIFF] [-s] [-c] [-f] [-v]
 
@@ -29,7 +29,7 @@ optional arguments:
   -p PACKAGE, --package PACKAGE
                         specify the name of a package from a release
   -b BUILD, --build BUILD
-                        specify the build number from a package
+                        specify the build number from a package (or 'latest')
   -d DIFF DIFF, --diff DIFF DIFF
                         specify the build number of a package to create diff
                         against
@@ -44,10 +44,12 @@ Then you can do something like:
 
 ```
 $ python aosd/main.py -o /tmp -t mac -p dyld -r 10.11.2
-====================
 [INFO]: Downloaded "dyld-360.18" to "/tmp/10.11.2/dyld-360.18.tar.gz"
 [INFO]: The package "dyld-360.18" has been downloaded to "/tmp/10.11.2".
-====================
+
+$ python aosd/main.py -o /tmp -t mac -p file_cmds -b latest
+[INFO]: Downloaded "file_cmds-251" to "/tmp/file_cmds-251.tar.gz"
+[INFO]: The package "file_cmds-251" has been downloaded to "/tmp".
 ```
 
 All bugs you encounter in this are probably mine, if you use this fork
