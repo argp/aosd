@@ -55,7 +55,6 @@ class CmdVersion(RootCmd):
         pre-fetch the manifest for this version
         """
         cacher.fetch(args['type'], args['version'])
-        print('====================')
 
     @classmethod
     def process_do(cls, line_text, context):

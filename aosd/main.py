@@ -83,6 +83,9 @@ def ParseFlags(args_dict):
                 if has_hash == True:
                     console_commands.append('hash get')
                 else:
+                    destdir_path = args_dict.get(kFLAGNAME_destdir, None)
+                    if destdir_path != None:
+                        console_commands.append('config set download_directory ' + destdir_path)
                     console_commands.append('download')
             else:
                 diff_numbers = args_dict.get(kFLAGNAME_diff, None)
@@ -135,10 +138,10 @@ def main():
 
     parser.add_argument(
         '-b',
-        '--'+kFLAGNAME_build,
-        help='specify the build number from a package',
-        required=False,
-        action='store'
+        '--' + kFLAGNAME_build,
+        help = "specify the build number from a package (or 'latest')",
+        required = False,
+        action = 'store'
     )
 
     parser.add_argument(

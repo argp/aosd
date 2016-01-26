@@ -69,7 +69,6 @@ class CmdDiff(RootCmd):
 
             if has_package == False:
                 logging_helper.getLogger().error('Cannot download package without a package set. Use the "package" command.')
-        print('====================')
 
     @classmethod
     def process_do(cls, line_text, context):

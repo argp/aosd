@@ -55,6 +55,12 @@ class config(object):
     def setDownloadDir(cls, download_dir):
         download_dir = os.path.expanduser(download_dir)
         settings = cls.read()
+
+        try:
+            os.makedirs(download_dir)
+        except OSError:
+            pass
+
         if os.path.exists(download_dir) == True:
             settings['download_directory'] = download_dir
             cls.write(settings)

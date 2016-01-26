@@ -40,8 +40,12 @@ class CmdDownload(RootCmd):
         if has_type == True and has_package == True and has_build == True:
             release_type = args['type']
             package_name = args['package']
-            release_version = args['version']
-            manager.DownloadPackageTarball(release_type, package_name, build_number, release_version)
+
+            if has_version == True:
+                release_version = args['version']
+                manager.DownloadPackageTarball(release_type, package_name, build_number, release_version)
+            else:
+                manager.DownloadPackageTarball(release_type, package_name, build_number)
         else:
             if has_type == False:
                 logging_helper.getLogger().error('Cannot download package without a release type set. Use the "type" command.')
@@ -51,7 +55,6 @@ class CmdDownload(RootCmd):
 
             if has_build == False:
                 logging_helper.getLogger().error('Cannot download package without a version set. Use the "version" command or the "build" command.')
-        print('====================')
 
     @classmethod
     def process_do(cls, line_text, context):

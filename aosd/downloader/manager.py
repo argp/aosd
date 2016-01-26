@@ -90,7 +90,6 @@ class manager(object):
 
         if dest_dir != '':
             output_directory = dest_dir
-            print("[xxx] output_directory = %s" % (output_directory))
         else:
             output_directory = os.path.expanduser(config.getDownloadDir())
 

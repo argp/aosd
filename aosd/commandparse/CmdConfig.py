@@ -71,7 +71,6 @@ class CmdConfig(RootCmd):
         if args[0] == 'defaults':
             config.defaults()
             logging_helper.getLogger().info('Default configuration has been restored.')
-        print('====================')
 
     @classmethod
     def process_do(cls, line_text, context):

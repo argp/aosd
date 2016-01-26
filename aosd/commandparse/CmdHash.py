@@ -64,7 +64,6 @@ class CmdHash(RootCmd):
             package_name = args[1]['package']
             build_number = args[1]['build']
             print(Hashes.get(release_type, package_name, build_number))
-        print('====================')
     
     @classmethod
     def process_do(cls, line_text, context):

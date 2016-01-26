@@ -31,7 +31,6 @@ class CmdUpdate(RootCmd):
         calls to perform the update
         """
         update.fetch()
-        print('====================')
 
     @classmethod
     def process_do(cls, line_text, context):

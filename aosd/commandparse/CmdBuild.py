@@ -42,6 +42,10 @@ class CmdBuild(RootCmd):
         """
         # only use the first value
         if len(args) > 0:
+            if args[0] == 'latest':
+                latest = cls.valid_values(release_type, package_name)[0]
+                return (True, latest)
+
             return (args[0] in cls.valid_values(release_type, package_name), args[0])
         else:
             return (False, None)
@@ -66,3 +70,5 @@ class CmdBuild(RootCmd):
             ret_val = 'Please select a release type and package before using the "build" command.'
             logging_helper.getLogger().info(ret_val)
         return ret_val
+
+# EOF

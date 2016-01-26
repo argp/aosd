@@ -70,7 +70,6 @@ class CmdCache(RootCmd):
             cacher.rebuild()
         if cache_action == 'setup':
             cacher.clean()
-        print('====================')
 
     @classmethod
     def process_do(cls, line_text, context):

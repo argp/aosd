@@ -47,7 +47,6 @@ class CmdList(RootCmd):
                     print(package_name)
         else:
             logging_helper.getLogger().info('Please select a release type before using the "list" command for packages, or please select a release type and package before using the "list" command for build numbers.')
-        print('====================')
 
     @classmethod
     def process_do(cls, line_text, context):
