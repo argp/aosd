@@ -12692,7 +12692,7 @@
 				<key>sha256</key>
 				<string>6d337f7206fd8dcd68855e88e3e8cf57083c0c6b1d6a0f451c5a95bae77b1c38</string>
 			</dict>
-		</dict>
+        </dict>
 		<key>OpenSSL</key>
 		<dict>
 			<key>10</key>
@@ -27230,7 +27230,15 @@
 				<key>sha256</key>
 				<string>4161709b8c308993444afc93a2786a188e4c49bb518a7747ee57675345a14210</string>
 			</dict>
-		</dict>
+        </dict>
+        <key>coreTLS</key>
+        <dict>
+            <key>83.20.8</key>
+            <dict>
+                <key>sha256</key>
+                <string>cfc397229875a73e1214b95e2f391cb04d435fe40904c65796532b981ac36c90</string>
+            </dict>
+        </dict>
 		<key>pyobjc</key>
 		<dict>
 			<key>14</key>
